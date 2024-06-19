@@ -1,0 +1,86 @@
+{
+    "navmenu": {
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galeria",
+        "contacto": "Contacto"
+    },
+    "hero": {
+        "title": "Exportamos Ajonjolí y Maní",
+        "subtitle": "Tus Socios Confiables en el mercado Global",
+        "subtitle2": "Calidad excepcional, apoyando a pequeños agricultores y promoviendo la sostenibilidad.",
+        "btnLearnMore": "Conoce más"
+    },
+    "iconBoxes": {
+        "box1": "Innovación",
+        "titleBox1": "Mejora continua de eficiencia y productividad.",
+        "box2": "Sostenibilidad",
+        "titleBox2": "Operaciones respetuosas con el medio ambiente.",
+        "box3": "Responsabilidad",
+        "titleBox3": "Socialmente nos preocupamos por el bienestar de las comunidades agrícolas.",
+        "box4": "Apoyo",
+        "titleBox4": "Nuestras operaciones giran en torno a priorizar a los pequeños agricultores."
+    },
+    "about": {
+        "title": "Nosotros",
+        "about1": "INSEMASA es una empresa que tiene como objetivo ser social y económicamente responsable.",
+        "about2": " Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad",
+        "about3": " excepcional de pequeñas granjas y cooperativas en Nicaragua. Nuestro principal objetivo es proporcionar a nuestros",
+        "about4": "clientes/socios productos de primera categoría y al mismo tiempo, apoyar a los agricultores locales",
+        "about5": "promover prácticas agrícolas sostenibles",
+        "titleMision": "Mision",
+        "mision": "Exportar materias primas y productos manufacturados de calidad superior sostenibles. Satisfaciendo la necesidad de nuestros clientes y colaborando con agricultores locales para mejorar técnicas y productividad.",
+        "titleVision": "Vision",
+        "vision": "Convertirnos en un actor líder en las industrias de maní y ajonjolí de Nicaragua, enfocados en la calidad, sostenibilidad, innovación y responsabilidad social."
+    },
+    "products": {
+        "title": "Productos",
+        "titlep1": "Ajonjolí",
+        "p1d1": "Organico: <b> Natural y descortezado </b>",
+        "p1d2": "Convencional: <b> Natural y descortezado </b>",
+        "titlep2": "Maní",
+        "p2d1": "Organico",
+        "p2d2": "Organico blancheado",
+        "p2d3": "Organico blancheado"
+    },
+    "cta": {
+        "title": "Te apoyaremos en tu siguiente paso",
+        "btn": "¡Quiero una propuesta!"
+    },
+    "news": {
+        "title": "Noticias",
+        "desc": "En INSEMASA, creemos en un futuro donde la agricultura no solo nutre, sino que también protege nuestro planeta. ",
+        "n1": "Cultivando juntos un futuro más brillante.",
+        "n2": "Produtores arando a caballos para el control de malezas.",
+        "d2": "Nuestros productores de ajonjolí de la comunidad El Tololar Nicaragua, dedicados y apasionados, están en el corazón de nuestra misión. Juntos, practicamos una agricultura sostenible que respeta y cuida la tierra.",
+        "n3": "El resultado: Ajonjolí de la más alta calidad.",
+        "d3": "Cada semilla de ajonjolí cuenta una historia de sostenibilidad, esfuerzo y dedicación, cultivado de manera responsable, que llega a mercados de todo el mundo.",
+        "n4": "Desde nuestras tierras hasta tu mesa.",
+        "d4": "Al elegir nuestros productos, no solo obtienes calidad superior, sino que también apoyas a las comunidades locales y contribuyes a un sistema alimentario global más seguro y sostenible."
+    },
+    "galery": {
+        "title": "Galeria",
+        "desc": "Nuestras operaciones giran en torno a priorizar a los pequeños agricultores y comprender sus necesidades y expectativas únicas."
+    },
+    "contact": {
+        "title": "Contacto",
+        "tAddr": "Dirección",
+        "descAddr": "Managua, rotonda de Bello Horizonte, dos cuadras al sur tres cuadras abajo, tope a mano izquierda casa número A-II - 44.",
+        "tPNum": "Llámanos",
+        "tdescPNum": "+505 8565 7978",
+        "tEmail": "Envíenos un correo electrónico",
+        "descEmail": "erwin.aragon@insemasa.com",
+        "tTimetable": "Horario de apertura:",
+        "descTimetable": "Lun-Vie: 8AM - 5PM | Sab: 8AM - 12MD",
+        "tLoading": "Cargando",
+        "tMessage": "Tu mensaje ha sido enviado. ¡Gracias!",
+        "btn": "Enviar Mensaje"
+    },
+    "foot":{
+        "copy":"Todos los derechos reservados",
+        "desing": "Diseñado por"
+    }
+}

@@ -13,7 +13,8 @@
   --heading-color: #172a28;
   /* Color for headings, subheadings and title throughout the website */
   --accent-color: #2A7C30;
-  /* --accent-color: #8EC545; */
+
+  --background-color-2: #8EC545;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: #ffffff;
   /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
@@ -45,6 +46,14 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+}
+
+.justify {
+  text-align: justify;
+}
+
+.white {
+  color: white;
 }
 
 a {
@@ -86,6 +95,15 @@ h6 {
   padding: 0;
   font-size: 14px;
   transition: all 0.5s;
+}
+
+.header .topbar .contact-info i button {
+  color: white;
+}
+
+.header .topbar .contact-info i button:hover {
+  color: var(--nav-hover-color);
+
 }
 
 .header .topbar .contact-info i {
@@ -138,7 +156,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 50px;
   margin-right: 8px;
 }
 
@@ -540,6 +558,13 @@ h6 {
   font-size: 13px;
 }
 
+.title-desing{
+  color: var(--background-color-2);
+}
+
+.title-desing:hover{
+  color: var(--nav-dropdown-hover-color);
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -736,7 +761,7 @@ section,
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  --default-color:white;
+  --default-color: white;
   --heading-color: white;
   width: 100%;
   position: relative;
@@ -777,7 +802,7 @@ section,
   border-radius: 50px;
   transition: 0.3s;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  background-color: color-mix(in srgb, var(--nav-hover-color), transparent 60%);
 }
 
 .hero .btn-get-started:hover {
@@ -816,7 +841,7 @@ section,
 }
 
 .hero .icon-boxes {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   z-index: 4;
 }
 
@@ -837,12 +862,12 @@ section,
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: color-mix(in srgb, var(--accent-color), white 4%);
+  background: color-mix(in srgb, #2A7C30, #8EC545 80%);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
-  height: 100%;
+  height: 80%;
   width: 100%;
   text-align: center;
 }
@@ -880,32 +905,57 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+.container-text{
+  position: relative;
+}
+
+.logo-background{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('/assets/img/favicon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 60%;
+  opacity: 0.3;
+}
+
+
+/* styles for the img the about */
+.container-our-img {
+  position: relative;
+  height: 20rem;
+  width: 100%;
+  overflow: visible;
+}
+
+.container-our-img img.our1 {
+  position: absolute;
+  left: -4rem;
+}
+
+.container-our-img img.our2 {
+  position: absolute;
+  top: 1rem;
+}
+
+.container-our-img img.our3 {
+  position: absolute;
+  left: -2rem;
+  top: -2rem
+}
+
 .about h3 {
   font-weight: 700;
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .about .fst-italic {
   color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding: 0 0 10px 30px;
-  position: relative;
-}
-
-.about .content ul i {
-  position: absolute;
-  font-size: 20px;
-  left: 0;
-  top: -3px;
-  color: var(--accent-color);
 }
 
 .about .content p:last-child {
@@ -996,6 +1046,7 @@ section,
 --------------------------------------------------------------*/
 .clients .swiper {
   padding: 10px 0;
+  background-color: var(--background-color-2);
 }
 
 .clients .swiper-wrapper {
@@ -1008,36 +1059,6 @@ section,
 
 .clients .swiper-slide img:hover {
   transform: scale(1.1);
-}
-
-/*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
-.stats .stats-item {
-  padding: 10px;
-}
-
-.stats .stats-item i {
-  font-size: 44px;
-  color: var(--accent-color);
-  line-height: 0;
-  margin-right: 15px;
-}
-
-.stats .stats-item .purecounter {
-  color: var(--heading-color);
-  font-size: 40px;
-  display: block;
-  font-weight: 700;
-  line-height: 40px;
-}
-
-.stats .stats-item p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  padding: 15px 0 0 0;
-  margin: 0;
-  font-family: var(--heading-font);
-  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -1193,30 +1214,58 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# products Section
 --------------------------------------------------------------*/
-.services .service-item {
+.products {
+  background-color: var(--background-color-2);
+}
+
+.products .service-item {
   padding: 40px;
-  box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 90%);
+  background-color: var(--background-color);
+  border-radius: 1em;
+  box-shadow: 0px 0 30px color-mix(in srgb, var(--accent-color), transparent 90%);
   height: 100%;
 }
 
-.services .service-item .icon {
-  width: 48px;
-  height: 48px;
+.products .service-item .icon {
+  width: 120px;
+  height: 120px;
   position: relative;
   margin-bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-.services .service-item .icon i {
-  color: color-mix(in srgb, var(--heading-color), transparent 30%);
-  font-size: 56px;
+.products .service-item .icon img {
+  object-fit: cover;
+  object-position: center;
+  /* color: color-mix(in srgb, var(--heading-color), transparent 30%);*/
+  height: 128px;
   transition: ease-in-out 0.3s;
   z-index: 2;
   position: relative;
 }
 
-.services .service-item .icon:before {
+.products .service-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.products .service-item ul li {
+  padding: 0 0 10px 30px;
+  position: relative;
+}
+
+.products .service-item ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: var(--accent-color);
+}
+
+.products .service-item .icon:before {
   position: absolute;
   content: "";
   height: 100%;
@@ -1225,11 +1274,11 @@ section,
   border-radius: 50px;
   z-index: 1;
   top: 10px;
-  right: -20px;
+  /* right: -30px; */
   transition: 0.3s;
 }
 
-.services .service-item h3 {
+.products .service-item h3 {
   color: color-mix(in srgb, var(--heading-color), transparent 20%);
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -1241,39 +1290,39 @@ section,
   transition: 0.3s;
 }
 
-.services .service-item p {
+.products .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item .readmore {
+.products .service-item .readmore {
   margin-top: 15px;
   display: inline-block;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-.services .service-item:hover .icon i {
+.products .service-item:hover .icon i {
   color: var(--heading-color);
 }
 
-.services .service-item:hover .icon:before {
+.products .service-item:hover .icon:before {
   background: color-mix(in srgb, var(--accent-color), transparent 50%);
 }
 
-.services .service-item:hover h3 {
+.products .service-item:hover h3 {
   border-color: color-mix(in srgb, var(--accent-color), transparent 10%);
   color: var(--heading-color);
 }
 
-.services .service-item:hover .readmore {
+.products .service-item:hover .readmore {
   color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
-# Testimonials Section
+# news Section
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+.news .news-item {
   box-shadow: 0px 2px 15px color-mix(in srgb, var(--default-color), transparent 90%);
   box-sizing: content-box;
   padding: 30px;
@@ -1282,47 +1331,47 @@ section,
   height: 100%;
 }
 
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
+.news .news-item .news-img {
+  width: 300px;
+  /* border-radius: 50px; */
   margin-right: 15px;
 }
 
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
+.news .news-item h3 {
+  font-size: 16px;
   font-weight: bold;
   margin: 10px 0 5px 0;
 }
 
-.testimonials .testimonial-item h4 {
+.news .news-item h4 {
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin: 0;
 }
 
-.testimonials .testimonial-item .stars {
+.news .news-item .stars {
   margin: 10px 0;
 }
 
-.testimonials .testimonial-item .stars i {
+.news .news-item .stars i {
   color: #ffc107;
   margin: 0 1px;
 }
 
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
+.news .news-item .quote-icon-left,
+.news .news-item .quote-icon-right {
   color: color-mix(in srgb, var(--accent-color), transparent 50%);
   font-size: 26px;
   line-height: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left {
+.news .news-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testimonials .testimonial-item .quote-icon-right {
+.news .news-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
@@ -1330,489 +1379,109 @@ section,
   transform: scale(-1, -1);
 }
 
-.testimonials .testimonial-item p {
+.news .news-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
 }
 
-.testimonials .swiper-wrapper {
+.news .swiper-wrapper {
   height: auto;
 }
 
-.testimonials .swiper-pagination {
+.news .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.news .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.news .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
 @media (max-width: 767px) {
-  .testimonials .testimonial-wrap {
+  .news .news-wrap {
     padding-left: 0;
   }
 
-  .testimonials .testimonial-item {
+  .news .news-item {
     padding: 30px;
     margin: 15px;
   }
 
-  .testimonials .testimonial-item .testimonial-img {
+  .news .news-item .news-img {
     position: static;
     left: auto;
   }
 }
 
 /*--------------------------------------------------------------
-# Portfolio Section
+# galery Section
 --------------------------------------------------------------*/
-.portfolio .portfolio-filters {
-  padding: 0 0 20px 0;
-  margin: 0 auto;
-  list-style: none;
-  text-align: center;
-}
 
-.portfolio .portfolio-filters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 10px;
-  line-height: 1;
-  transition: all 0.3s ease-in-out;
-}
-
-.portfolio .portfolio-filters li:hover,
-.portfolio .portfolio-filters li.filter-active {
-  color: var(--accent-color);
-}
-
-.portfolio .portfolio-filters li:first-child {
-  margin-left: 0;
-}
-
-.portfolio .portfolio-filters li:last-child {
-  margin-right: 0;
-}
-
-@media (max-width: 575px) {
-  .portfolio .portfolio-filters li {
-    font-size: 14px;
-    margin: 0 5px;
-  }
-}
-
-.portfolio .portfolio-content {
-  box-shadow: 0px 10px 30px color-mix(in srgb, var(--default-color), transparent 90%);
-  height: 100%;
-  overflow: hidden;
-}
-
-.portfolio .portfolio-content img {
-  transition: 0.3s;
-  position: relative;
-  z-index: 1;
-}
-
-.portfolio .portfolio-content .portfolio-info {
-  background-color: var(--background-color);
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 25px 20px;
-  position: relative;
-  z-index: 2;
-}
-
-.portfolio .portfolio-content .portfolio-info h4 {
-  font-size: 18px;
-  font-weight: 600;
-  padding-right: 50px;
-}
-
-.portfolio .portfolio-content .portfolio-info h4 a {
-  color: var(--heading-color);
-  transition: 0.3s;
-}
-
-.portfolio .portfolio-content .portfolio-info h4 a:hover {
-  color: var(--accent-color);
-}
-
-.portfolio .portfolio-content .portfolio-info p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  font-size: 14px;
-  margin-bottom: 0;
-  padding-right: 50px;
-}
-
-.portfolio .portfolio-content:hover img {
-  transform: scale(1.1);
-}
-
-/*--------------------------------------------------------------
-# Team Section
---------------------------------------------------------------*/
-.team .member {
-  box-shadow: 0px 2px 25px color-mix(in srgb, var(--default-color), transparent 90%);
-  text-align: center;
-  border-radius: 15px;
-  padding: 15px;
-  overflow: hidden;
-}
-
-.team .member img {
-  border-radius: 15px;
-  overflow: hidden;
-}
-
-.team .member .member-content {
-  padding: 0 20px 30px 20px;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-top: 16px;
-  margin-bottom: 2px;
-  font-size: 20px;
-}
-
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.team .member .social {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.team .member .social a {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-  transition: 0.3s;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 60%);
-}
-
-.team .member .social a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-/*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
-.pricing {
-  padding: 60px 0 120px 0;
-}
-
-.pricing .section-title {
-  margin-bottom: 40px;
-}
-
-.pricing .pricing-item {
-  box-shadow: 0 3px 20px -2px color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 60px 40px;
-  height: 100%;
-  position: relative;
-  border-radius: 15px;
-}
-
-.pricing h3 {
-  font-weight: 600;
-  margin-bottom: 15px;
-  font-size: 20px;
-  text-align: center;
-}
-
-.pricing .icon {
-  margin: 30px auto 20px auto;
-  width: 70px;
-  height: 70px;
-  background: var(--accent-color);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
-  transform-style: preserve-3d;
-}
-
-.pricing .icon i {
-  color: var(--background-color);
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
-  line-height: 0;
-}
-
-.pricing .icon::before {
-  position: absolute;
-  content: "";
-  height: 86px;
-  width: 86px;
-  border-radius: 50%;
-  background: color-mix(in srgb, var(--accent-color), transparent 80%);
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-1px);
-}
-
-.pricing .icon::after {
-  position: absolute;
-  content: "";
-  height: 102px;
-  width: 102px;
-  border-radius: 50%;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-2px);
-}
-
-.pricing h4 {
-  font-size: 48px;
-  color: var(--accent-color);
-  font-weight: 700;
-  font-family: var(--heading-font);
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-.pricing h4 sup {
-  font-size: 28px;
-}
-
-.pricing h4 span {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.pricing ul {
-  padding: 20px 0;
-  list-style: none;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  text-align: left;
-  line-height: 20px;
-}
-
-.pricing ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-.pricing ul i {
-  color: #059652;
-  font-size: 24px;
-  padding-right: 3px;
-}
-
-.pricing ul .na {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.pricing ul .na i {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.pricing ul .na span {
-  text-decoration: line-through;
-}
-
-.pricing .buy-btn {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  background-color: var(--background-color);
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
-  transition: none;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: var(--heading-font);
-  transition: 0.3s;
-}
-
-.pricing .buy-btn:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.pricing .featured {
-  z-index: 10;
-  border: 3px solid var(--accent-color);
-}
-
-@media (min-width: 992px) {
-  .pricing .featured {
-    transform: scale(1.15);
-  }
-}
-
-/*--------------------------------------------------------------
-# Faq Section
---------------------------------------------------------------*/
-.faq .content h3 {
-  font-weight: 400;
-  font-size: 34px;
-}
-
-.faq .content p {
-  font-size: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
-
-.faq .faq-container .faq-item {
-  position: relative;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0px 5px 25px 0px color-mix(in srgb, var(--default-color), transparent 90%);
-  overflow: hidden;
-}
-
-.faq .faq-container .faq-item:last-child {
-  margin-bottom: 0;
-}
-
-.faq .faq-container .faq-item h3 {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  margin: 0 30px 0 0;
-  transition: 0.3s;
-  cursor: pointer;
-  display: flex;
-  align-items: flex-start;
-}
-
-.faq .faq-container .faq-item h3 .num {
-  color: var(--accent-color);
-  padding-right: 5px;
-}
-
-.faq .faq-container .faq-item h3:hover {
-  color: var(--accent-color);
-}
-
-.faq .faq-container .faq-item .faq-content {
+.container-galery {
+  width: 100%;
+  max-width: 1100px;
   display: grid;
-  grid-template-rows: 0fr;
-  transition: 0.3s ease-in-out;
-  visibility: hidden;
-  opacity: 0;
+  grid-template-columns: repeat(1, minmax(280px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
 }
 
-.faq .faq-container .faq-item .faq-content p {
-  margin-bottom: 0;
-  overflow: hidden;
-}
-
-.faq .faq-container .faq-item .faq-toggle {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 16px;
-  line-height: 0;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.faq .faq-container .faq-item .faq-toggle:hover {
-  color: var(--accent-color);
-}
-
-.faq .faq-container .faq-active h3 {
-  color: var(--accent-color);
-}
-
-.faq .faq-container .faq-active .faq-content {
-  grid-template-rows: 1fr;
-  visibility: visible;
-  opacity: 1;
-  padding-top: 10px;
-}
-
-.faq .faq-container .faq-active .faq-toggle {
-  transform: rotate(90deg);
-  color: var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# Recent Posts Section
---------------------------------------------------------------*/
-.recent-posts article {
-  box-shadow: 0 4px 16px color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 30px;
+.container-galery .galery-item img {
+  width: 100%;
   height: 100%;
-  border-radius: 10px;
-  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 }
 
-.recent-posts .post-img {
-  max-height: 240px;
-  margin: -30px -30px 15px -30px;
-  overflow: hidden;
+.item2{
+  background-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  padding: .5rem;
 }
 
-.recent-posts .post-category {
-  font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  margin-bottom: 10px;
+.item2 h4{
+  color: white;
+  /* font-size: .8rem; */
 }
 
-.recent-posts .title {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 0;
-  margin: 0 0 20px 0;
+@media (max-width: 767px) {
+
+  .container-galery {
+    gap: 1rem;
+  }
 }
 
-.recent-posts .title a {
-  color: var(--heading-color);
-  transition: 0.3s;
-}
+@media (min-width: 767px) {
 
-.recent-posts .title a:hover {
-  color: var(--accent-color);
-}
+  .container-galery {
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    grid-template-rows: 2, 200px;
+  }
 
-.recent-posts .post-author-img {
-  width: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
+  .item1 {
+    /* grid-row: 1/3; */
+    grid-area: 1/1/3/2;
+  }
 
-.recent-posts .post-author {
-  font-weight: 600;
-  margin-bottom: 5px;
-}
+  .item2 {
+    grid-area: 1/2/2/2;
+  }
 
-.recent-posts .post-date {
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  margin-bottom: 0;
+
+  .item3 {
+    grid-area: 2/2/2/2;
+  }
+
+  .item4 {
+    grid-row: 1/3;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1965,658 +1634,11 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Blog Posts Section
---------------------------------------------------------------*/
-.blog-posts article {
-  box-shadow: 0 4px 16px color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 30px;
-  height: 100%;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.blog-posts .post-img {
-  max-height: 240px;
-  margin: -30px -30px 15px -30px;
-  overflow: hidden;
-}
-
-.blog-posts .post-category {
-  font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  margin-bottom: 10px;
-}
-
-.blog-posts .title {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-.blog-posts .title a {
-  color: var(--heading-color);
-  transition: 0.3s;
-}
-
-.blog-posts .title a:hover {
-  color: var(--accent-color);
-}
-
-.blog-posts .post-author-img {
-  width: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.blog-posts .post-author {
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.blog-posts .post-date {
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Pagination 2 Section
---------------------------------------------------------------*/
-.pagination-2 {
-  padding-top: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.pagination-2 ul {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.pagination-2 li {
-  margin: 0 5px;
-  transition: 0.3s;
-}
-
-.pagination-2 li a {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  padding: 7px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pagination-2 li.active,
-.pagination-2 li:hover {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.pagination-2 li.active a,
-.pagination-2 li:hover a {
-  color: var(--contrast-color);
-}
-
-/*--------------------------------------------------------------
-# Blog Details Section
---------------------------------------------------------------*/
-.blog-details {
-  padding-bottom: 30px;
-}
-
-.blog-details .article {
-  padding: 30px;
-  box-shadow: 0 4px 16px color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.blog-details .post-img {
-  margin: -30px -30px 20px -30px;
-  overflow: hidden;
-}
-
-.blog-details .title {
-  color: var(--heading-color);
-  font-size: 28px;
-  font-weight: 700;
-  padding: 0;
-  margin: 30px 0;
-}
-
-.blog-details .content {
-  margin-top: 20px;
-}
-
-.blog-details .content h3 {
-  font-size: 22px;
-  margin-top: 30px;
-  font-weight: bold;
-}
-
-.blog-details .content blockquote {
-  overflow: hidden;
-  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
-  padding: 60px;
-  position: relative;
-  text-align: center;
-  margin: 20px 0;
-}
-
-.blog-details .content blockquote p {
-  color: var(--default-color);
-  line-height: 1.6;
-  margin-bottom: 0;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 22px;
-}
-
-.blog-details .content blockquote:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background-color: var(--accent-color);
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.blog-details .meta-top {
-  margin-top: 20px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.blog-details .meta-top ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-
-.blog-details .meta-top ul li+li {
-  padding-left: 20px;
-}
-
-.blog-details .meta-top i {
-  font-size: 16px;
-  margin-right: 8px;
-  line-height: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.blog-details .meta-top a {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  font-size: 14px;
-  display: inline-block;
-  line-height: 1;
-}
-
-.blog-details .meta-bottom {
-  padding-top: 10px;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.blog-details .meta-bottom i {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  display: inline;
-}
-
-.blog-details .meta-bottom a {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  transition: 0.3s;
-}
-
-.blog-details .meta-bottom a:hover {
-  color: var(--accent-color);
-}
-
-.blog-details .meta-bottom .cats {
-  list-style: none;
-  display: inline;
-  padding: 0 20px 0 0;
-  font-size: 14px;
-}
-
-.blog-details .meta-bottom .cats li {
-  display: inline-block;
-}
-
-.blog-details .meta-bottom .tags {
-  list-style: none;
-  display: inline;
-  padding: 0;
-  font-size: 14px;
-}
-
-.blog-details .meta-bottom .tags li {
-  display: inline-block;
-}
-
-.blog-details .meta-bottom .tags li+li::before {
-  padding-right: 6px;
-  color: var(--default-color);
-  content: ",";
-}
-
-.blog-details .meta-bottom .share {
-  font-size: 16px;
-}
-
-.blog-details .meta-bottom .share i {
-  padding-left: 5px;
-}
-
-/*--------------------------------------------------------------
-# Blog Author Section
---------------------------------------------------------------*/
-.blog-author {
-  padding: 10px 0 40px 0;
-}
-
-.blog-author .author-container {
-  padding: 20px;
-  box-shadow: 0 4px 16px color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.blog-author img {
-  max-width: 120px;
-  margin-right: 20px;
-}
-
-.blog-author h4 {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 0px;
-  padding: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-}
-
-.blog-author .social-links {
-  margin: 0 10px 10px 0;
-}
-
-.blog-author .social-links a {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-  margin-right: 5px;
-}
-
-.blog-author p {
-  font-style: italic;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Blog Comments Section
---------------------------------------------------------------*/
-.blog-comments {
-  padding-top: 10px;
-}
-
-.blog-comments .comments-count {
-  font-weight: bold;
-}
-
-.blog-comments .comment {
-  margin-top: 30px;
-  position: relative;
-}
-
-.blog-comments .comment .comment-img {
-  margin-right: 14px;
-}
-
-.blog-comments .comment .comment-img img {
-  width: 60px;
-}
-
-.blog-comments .comment h5 {
-  font-size: 16px;
-  margin-bottom: 2px;
-}
-
-.blog-comments .comment h5 a {
-  font-weight: bold;
-  color: var(--default-color);
-  transition: 0.3s;
-}
-
-.blog-comments .comment h5 a:hover {
-  color: var(--accent-color);
-}
-
-.blog-comments .comment h5 .reply {
-  padding-left: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-}
-
-.blog-comments .comment h5 .reply i {
-  font-size: 20px;
-}
-
-.blog-comments .comment time {
-  display: block;
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  margin-bottom: 5px;
-}
-
-.blog-comments .comment.comment-reply {
-  padding-left: 40px;
-}
-
-.blog-comments .reply-form {
-  margin-top: 30px;
-  padding: 30px;
-  box-shadow: 0 4px 16px color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.blog-comments .reply-form h4 {
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.blog-comments .reply-form p {
-  font-size: 14px;
-}
-
-.blog-comments .reply-form input {
-  background-color: var(--background-color);
-  color: var(--default-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
-  font-size: 14px;
-  border-radius: 4px;
-  padding: 10px 10px;
-}
-
-.blog-comments .reply-form input:focus {
-  box-shadow: none;
-  border-color: var(--accent-color);
-}
-
-.blog-comments .reply-form textarea {
-  background-color: var(--background-color);
-  color: var(--default-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
-  border-radius: 4px;
-  padding: 10px 10px;
-  font-size: 14px;
-  height: 120px;
-}
-
-.blog-comments .reply-form textarea:focus {
-  box-shadow: none;
-  border-color: var(--accent-color);
-}
-
-.blog-comments .reply-form .form-group {
-  margin-bottom: 25px;
-}
-
-.blog-comments .reply-form .btn-primary {
-  border-radius: 4px;
-  padding: 10px 20px;
-  border: 0;
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.blog-comments .reply-form .btn-primary:hover {
-  color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
-
-/*--------------------------------------------------------------
-# Service Details Section
---------------------------------------------------------------*/
-.service-details .services-list {
-  padding: 10px 30px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  margin-bottom: 20px;
-}
-
-.service-details .services-list a {
-  display: block;
-  line-height: 1;
-  padding: 8px 0 8px 15px;
-  border-left: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
-  margin: 20px 0;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  transition: 0.3s;
-}
-
-.service-details .services-list a.active {
-  color: var(--heading-color);
-  font-weight: 700;
-  border-color: var(--accent-color);
-}
-
-.service-details .services-list a:hover {
-  border-color: var(--accent-color);
-}
-
-.service-details .services-img {
-  margin-bottom: 20px;
-}
-
-.service-details h3 {
-  font-size: 26px;
-  font-weight: 700;
-}
-
-.service-details h4 {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.service-details p {
-  font-size: 15px;
-}
-
-.service-details ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.service-details ul li {
-  padding: 5px 0;
-  display: flex;
-  align-items: center;
-}
-
-.service-details ul i {
-  font-size: 20px;
-  margin-right: 8px;
-  color: var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# Portfolio Details Section
---------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .swiper-wrapper {
-  height: auto;
-}
-
-.portfolio-details .swiper-button-prev,
-.portfolio-details .swiper-button-next {
-  width: 48px;
-  height: 48px;
-}
-
-.portfolio-details .swiper-button-prev:after,
-.portfolio-details .swiper-button-next:after {
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(0, 0, 0, 0.15);
-  font-size: 24px;
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
-}
-
-.portfolio-details .swiper-button-prev:hover:after,
-.portfolio-details .swiper-button-next:hover:after {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 575px) {
-
-  .portfolio-details .swiper-button-prev,
-  .portfolio-details .swiper-button-next {
-    display: none;
-  }
-}
-
-.portfolio-details .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .swiper-pagination .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
-  opacity: 1;
-}
-
-.portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-info h3:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: var(--accent-color);
-  left: 0;
-  bottom: 0;
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 15px;
-}
-
-.portfolio-details .portfolio-info ul strong {
-  text-transform: uppercase;
-  font-weight: 400;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 14px;
-}
-
-.portfolio-details .portfolio-info .btn-visit {
-  padding: 8px 40px;
-  background: var(--accent-color);
-  color: var(--contrast-color);
-  border-radius: 50px;
-  transition: 0.3s;
-}
-
-.portfolio-details .portfolio-info .btn-visit:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
-}
-
-.portfolio-details .portfolio-description .testimonial-item {
-  padding: 30px 30px 0 30px;
-  position: relative;
-  background: color-mix(in srgb, var(--default-color), transparent 97%);
-  margin-bottom: 50px;
-}
-
-.portfolio-details .portfolio-description .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
-  float: left;
-  margin: 0 10px 0 0;
-}
-
-.portfolio-details .portfolio-description .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 15px 0 5px 0;
-  padding-top: 20px;
-}
-
-.portfolio-details .portfolio-description .testimonial-item h4 {
-  font-size: 14px;
-  color: #6c757d;
-  margin: 0;
-}
-
-.portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
-.portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  font-size: 26px;
-  line-height: 0;
-}
-
-.portfolio-details .portfolio-description .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.portfolio-details .portfolio-description .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 0 0 0;
-  padding: 0;
-}
-
-/*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+/* .starter-section {
+  /* Add your styles here 
+} */
 
 /*--------------------------------------------------------------
 # Widgets

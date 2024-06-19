@@ -1,0 +1,86 @@
+{
+    "navmenu": {
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact"
+    },
+    "hero": {
+        "title": "We export sesame and peanuts",
+        "subtitle": "Your Trusted Partners in the Global Market",
+        "subtitle2": "Exceptional quality, supporting smallholder farmers and promoting sustainability.",
+        "btnLearnMore": "Learn more"
+    },
+    "iconBoxes": {
+        "box1": "Innovation",
+        "titleBox1": "Continuous improvement of efficiency and productivity.",
+        "box2": "Sustainability",
+        "titleBox2": "Environmentally friendly operations.",
+        "box3": "Responsibility",
+        "titleBox3": "Socially we care about the well-being of farming communities.",
+        "box4": "Support",
+        "titleBox4": "Our operations revolve around prioritizing smallholder farmers."
+    },
+    "about": {
+        "title": "About",
+        "about1": "INSEMASA is a company that aims to be socially and economically responsible.",
+        "about2": " We specialize in sourcing and exporting quality sesame and peanut seeds",
+        "about3": " exceptional small farms and cooperatives in Nicaragua. Our main goal is to provide our ",
+        "about4": "customers/partners to produce top-notch products and at the same time, support local farmers",
+        "about5": "promote sustainable agricultural practices",
+        "titleMision": "Mission",
+        "mision": "To export sustainable premium raw materials and manufactured products. Meeting the need of our customers and collaborating with local farmers to improve techniques and productivity.",
+        "titleVision": "Vision",
+        "vision": "To become a leading player in Nicaragua's peanut and sesame industries, focused on quality, sustainability, innovation and social responsibility."
+    },
+    "products": {
+        "title": "Products",
+        "titlep1": "Sesame",
+        "p1d1": "Organic: <b> Natural and debarked </b>",
+        "p1d2": "Conventional:<b> Natural and debarked </b>",
+        "titlep2": "Peanut",
+        "p2d1": "Organic",
+        "p2d2": "Organic blanched",
+        "p2d3": "Organic blanched"
+    },
+    "cta": {
+        "title": "We will support you in your next step",
+        "btn": "I want a proposal!"
+    },
+    "news": {
+        "title": "News",
+        "desc": "At INSEMASA, we believe in a future where agriculture not only nourishes, but also protects our planet.",
+        "n1": "Cultivating a brighter future together.",
+        "n2": "Producers ploughing horses for weed control.",
+        "d2": "Our dedicated and passionate sesame producers in the El Tololar Nicaragua community are at the heart of our mission. Together, we practice sustainable agriculture that respects and cares for the earth.",
+        "n3": "The result: Sesame of the highest quality.",
+        "d3": "Each sesame seed tells a story of sustainability, effort and dedication, grown responsibly, reaching markets around the world.",
+        "n4": "From our lands to your table.",
+        "d4": "By choosing our products, you not only get superior quality, but you also support local communities and contribute to a safer and more sustainable global food system."
+    },
+    "galery": {
+        "title": "Gallery",
+        "desc": "Our operations revolve around prioritizing smallholder farmers and understanding their unique needs and expectations."
+    },
+    "contact": {
+        "title": "Contact",
+        "tAddr": "Address",
+        "descAddr": "Managua, Bello Horizonte roundabout, two blocks south three blocks down, left stop house number A-II - 44.",
+        "tPNum": "Call us",
+        "tdescPNum": "+505 8565 7978",
+        "tEmail": "Send us an email",
+        "descEmail": "erwin.aragon@insemasa.com",
+        "tTimetable": "Opening hours:",
+        "descTimetable": "Mon-Fri: 8AM - 5PM | Sat: 8AM - 12MD",
+        "tLoading": "Loading",
+        "tMessage": "Your message has been sent. Thank you!",
+        "btn": "Send Message"
+    },
+    "foot": {
+        "copy": "All rights reserved",
+        "desing": "Designed by"
+    }
+}
