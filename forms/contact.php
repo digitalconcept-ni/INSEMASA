@@ -20,7 +20,8 @@
   // $contact->ajax = true;
   
   // $contact->to = $receiving_email_address;
-  // $contact->from_name = $_POST['name'];
+  // $contact->from_
+  name = $_POST['name'];
   // $contact->from_email = $_POST['email'];
   // $contact->subject = $_POST['subject'];
 
@@ -28,10 +29,10 @@
   
   // 'host' => 'example.com',
   // $contact->smtp = array(
-  //   'host' => 'mail.insemasa.net',
-  //   'username' => 'contact@insemasa.net',
-  //   'password' => '1$&g$dc4bd]$',
-  //   'port' => '465'
+  //   'host' => '',
+  //   'username' => '',
+  //   'password' => '',
+  //   'port' => ''
   // );
 
   $contact->add_message( $_POST['name'], 'From');

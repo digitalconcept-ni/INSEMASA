@@ -39,8 +39,8 @@
     "products": {
         "title": "Products",
         "titlep1": "Sesame",
-        "p1d1": "Organic: <b> Natural and debarked </b>",
-        "p1d2": "Conventional:<b> Natural and debarked </b>",
+        "p1d1": "Organic: <b> Natural and Hulled </b>",
+        "p1d2": "Conventional:<b> Natural and Hulled </b>",
         "titlep2": "Peanut",
         "p2d1": "Organic",
         "p2d2": "Organic blanched",
