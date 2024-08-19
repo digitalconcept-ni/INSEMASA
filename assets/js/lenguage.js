@@ -26,7 +26,7 @@ const changeLanguage = async language => {
         if (preloader) {
             preloader.remove();
         }
-    }, 1000)
+    },550)
 
 };
 

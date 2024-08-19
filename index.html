@@ -45,8 +45,13 @@
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center">
         <div class="contact-info d-flex align-items-center" id="language">
-          <i class="d-flex align-items-center"><button class="btn" data-language="en">EN</button></i>
-          <i class="d-flex align-items-center"><button class="btn" data-language="es">ES</button></i>
+          <i class="d-flex align-items-center">
+            <img src="assets/img/en-flag.jpg" alt="en-flag" data-language="en">
+          </i>
+          <span class="btn"></span>
+          <i class="d-flex align-items-center">
+            <img src="assets/img/es-flag.jpg" data-language="es" alt="es-flag">
+          </i>
           <!-- <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i> -->
         </div>
         <!-- <div class="social-links d-none d-md-flex align-items-center">
@@ -116,16 +121,18 @@
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <h4 class="title"><a href="#" class="stretched-link" data-section="iconBoxes"
-                    data-value="box1">Innovación</a></h4>
-                <p data-section="iconBoxes" data-value="titleBox1">Mejora continua de eficiencia y productividad</p>
+                    data-value="box1">Innovación y Sostenibilidad</a></h4>
+                <p data-section="iconBoxes" data-value="titleBox1">Operaciones respetuosas con el medio ambiente, con la
+                  continua de eficiencia y productividad</p>
               </div>
             </div><!--End Icon Box -->
 
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <h4 class="title"><a href="#" class="stretched-link" data-section="iconBoxes"
-                    data-value="box2">Sostenibilidad</a></h4>
-                <p data-section="iconBoxes" data-value="titleBox2">Operaciones respetuosas con el medio ambiente</p>
+                    data-value="box2">Transparencia</a></h4>
+                <p data-section="iconBoxes" data-value="titleBox2">Nos comprometemos en nuestro negocio, creyendo en la
+                  confianza y honestidad con los agricultores y clientes. </p>
               </div>
             </div><!--End Icon Box -->
 
@@ -140,12 +147,15 @@
 
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
-                <h4 class="title"><a href="#" class="stretched-link" data-section="iconBoxes" data-value="box4">Apoyo</a>
+                <h4 class="title"><a href="#" class="stretched-link" data-section="iconBoxes"
+                    data-value="box4">Solidaridad</a>
                 </h4>
                 <p data-section="iconBoxes" data-value="titleBox4">Nuestras operaciones giran en torno a priorizar a los
                   pequeños agricultores.</p>
               </div>
             </div><!--End Icon Box -->
+
+
 
           </div>
         </div>
@@ -154,7 +164,7 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about section mb-3">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -289,7 +299,8 @@
               <!-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
                 laborum.</p> -->
-              <a class="cta-btn" href="https://api.whatsapp.com/send/?phone=50585657978" data-section="cta" data-value="btn">¡Quiero una propuesta!</a>
+              <a class="cta-btn" href="https://api.whatsapp.com/send/?phone=50585657978" data-section="cta"
+                data-value="btn">¡Quiero una propuesta!</a>
             </div>
           </div>
         </div>
@@ -299,6 +310,11 @@
 
     <!-- Clients Section -->
     <section id="clients" class="clients section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-section="businessPartners" data-value="title">Socios comerciales</h2>
+      </div><!-- End Section Title -->
 
       <div class="container">
 
@@ -585,20 +601,29 @@
             <form action="forms/correo.php" method="post" class="php-email-form" data-aos="fade" data-aos-delay="100">
               <div class="row gy-4">
 
-                <div class="col-md-6">
-                  <input type="text" autocapitalize="words" autocomplete="off" name="name" class="form-control" placeholder="your name" required="">
+                <div class="col-md-4">
+                  <input type="text" autocapitalize="words" autocomplete="off" name="name" class="form-control"
+                    placeholder="your name" required="">
                 </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" autocapitalize="words" autocomplete="off" class="form-control" name="email" placeholder="Email" required="">
+                <div class="col-md-4">
+                  <input type="text" autocomplete="off" name="phone" class="form-control" placeholder="number phone"
+                    required="">
+                </div>
+
+                <div class="col-md-4">
+                  <input type="email" autocapitalize="words" autocomplete="off" class="form-control" name="email"
+                    placeholder="Email" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" autocapitalize="words" autocomplete="off" class="form-control" name="subject" placeholder="Subject" required="">
+                  <input type="text" autocapitalize="words" autocomplete="off" class="form-control" name="subject"
+                    placeholder="Subject" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <textarea autocapitalize="words" autocomplete="off" class="form-control" name="message" rows="8" placeholder="Message" required=""></textarea>
+                  <textarea autocapitalize="words" autocomplete="off" class="form-control" name="message" rows="8"
+                    placeholder="Message" required=""></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">

@@ -2,13 +2,14 @@
     $destinatario = 'desarrollo.digitalconcept@gmail.com';
 
     $nombre =  $_POST['name'];
+    $phone = $_POST['phone'];
     $email = $_POST['email'];
     $asunto = $_POST['subject'];
     $mensaje = $_POST['message'];
 
     $body = <<<HTML
     <h1> Contacto desde la web</h1>
-    <p>De: $nombre - $email</p>
+    <p>De: $nombre - $phone - $email</p>
     <h2>Mensaje: </h2>
     $mensaje
     HTML;

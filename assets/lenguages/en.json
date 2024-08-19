@@ -15,13 +15,13 @@
         "btnLearnMore": "Learn more"
     },
     "iconBoxes": {
-        "box1": "Innovation",
-        "titleBox1": "Continuous improvement of efficiency and productivity.",
-        "box2": "Sustainability",
-        "titleBox2": "Environmentally friendly operations.",
+        "box1": "Innovation and Sustainability",
+        "titleBox1": "Environmentally friendly operations, with continuous efficiency and productivity.",
+        "box2": "Transparency",
+        "titleBox2": "We are committed to our business, believing in trust and honesty with farmers and customers.",
         "box3": "Responsibility",
         "titleBox3": "Socially we care about the well-being of farming communities.",
-        "box4": "Support",
+        "box4": "Solidarity",
         "titleBox4": "Our operations revolve around prioritizing smallholder farmers."
     },
     "about": {
@@ -49,6 +49,9 @@
     "cta": {
         "title": "We will support you in your next step",
         "btn": "I want a proposal!"
+    },
+    "businessPartners": {
+        "title": "Business Partners"
     },
     "news": {
         "title": "News",

@@ -15,13 +15,13 @@
         "btnLearnMore": "Conoce más"
     },
     "iconBoxes": {
-        "box1": "Innovación",
-        "titleBox1": "Mejora continua de eficiencia y productividad.",
-        "box2": "Sostenibilidad",
-        "titleBox2": "Operaciones respetuosas con el medio ambiente.",
+        "box1": "Innovación y Sostenibilidad",
+        "titleBox1": "Operaciones respetuosas con el medio ambiente, con la continua de eficiencia y productividad.",
+        "box2": "Transparencia",
+        "titleBox2": "Nos comprometemos en nuestro negocio, creyendo en la confianza y honestidad con los agricultores y clientes.",
         "box3": "Responsabilidad",
         "titleBox3": "Socialmente nos preocupamos por el bienestar de las comunidades agrícolas.",
-        "box4": "Apoyo",
+        "box4": "Solidaridad",
         "titleBox4": "Nuestras operaciones giran en torno a priorizar a los pequeños agricultores."
     },
     "about": {
@@ -49,6 +49,9 @@
     "cta": {
         "title": "Te apoyaremos en tu siguiente paso",
         "btn": "¡Quiero una propuesta!"
+    },
+    "businessPartners":{
+        "title": "Socios comerciales"
     },
     "news": {
         "title": "Noticias",
