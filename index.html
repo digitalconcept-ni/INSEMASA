@@ -28,6 +28,11 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/christmas.css" rel="stylesheet">
+
+   <!-- Tom Select -->
+   <link href="assets/vendor/tom-select/css/tom-select.css" rel="stylesheet">
+
 
   <!-- =======================================================
   * Template Name: Impact
@@ -418,7 +423,6 @@
           </script>
           <div class="swiper-wrapper">
 
-
             <div class="swiper-slide">
               <div class="news-item">
                 <img src="assets/img/news/new-4.jpg" class="news-img" alt="">
@@ -493,14 +497,78 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </h3>
 
-                <p>
+                <p class="justify">
                   <span data-section="news" data-value="d4">Al elegir nuestros productos, no solo obtienes calidad
                     superior, sino que también apoyas a
                     las comunidades locales y contribuyes a un sistema alimentario global más seguro y sostenible.
                   </span>
                 </p>
               </div>
-            </div><!-- End news item -->
+            </div>
+            <!-- End news item -->
+
+            <div class="swiper-slide">
+              <div class="news-item">
+                <img src="assets/img/news/new-5.webp" class="news-img" alt="Sésamo">
+                <h3 class="justify">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span data-section="news" data-value="n5">
+                    Sésamo Natural, Un Producto de Alta Calidad.
+                  </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </h3>
+
+                <p class="justify">
+                  <span data-section="news" data-value="d5">Este año, los productores de INSEMASA cosechan sésamo de
+                    alta calidad, rico en nutrientes. Ideal para el consumo local y la exportación, este producto
+                    destaca por su pureza, sabor y beneficios nutricionales.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End news item -->
+
+            <div class="swiper-slide">
+              <div class="news-item">
+                <img src="assets/img/news/new-6.webp" class="news-img" alt="Sésamo">
+                <h3 class="justify">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span data-section="news" data-value="n6">
+                    Oportunidades de Exportación para el Sésamo Nicaragüense.
+                  </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </h3>
+
+                <p class="justify">
+                  <span data-section="news" data-value="d6">El sésamo nicaragüense, cultivado de forma sostenible, gana
+                    popularidad en mercados internacionales. Su alta demanda impulsa las exportaciones y beneficia a
+                    pequeños productores.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End news item -->
+
+            <div class="swiper-slide">
+              <div class="news-item">
+                <img src="assets/img/news/new-7.webp" class="news-img" alt="Sésamo">
+                <h3 class="justify">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span data-section="news" data-value="n7">
+                    Compromiso con la Calidad y la Sostenibilidad.
+                  </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </h3>
+
+                <p class="justify">
+                  <span data-section="news" data-value="d7"> INSEMASA garantiza la calidad superior de su sésamo,
+                    cumpliendo con estándares internacionales en cosecha, almacenamiento y transporte. Un ejemplo de
+                    agricultura sostenible y trabajo en equipo.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End news item -->
 
           </div>
           <div class="swiper-pagination"></div>
@@ -602,28 +670,40 @@
               <div class="row gy-4">
 
                 <div class="col-md-4">
-                  <input type="text" autocapitalize="words" autocomplete="off" name="name" class="form-control"
-                    placeholder="your name" required="">
+                  <input type="text" autocapitalize="words" autocomplete="off" id="name" name="name"
+                    class="form-control" placeholder="your name" required>
                 </div>
 
                 <div class="col-md-4">
-                  <input type="text" autocomplete="off" name="phone" class="form-control" placeholder="number phone"
-                    required="">
+                  <!-- <select id="select-country" name="prefix" autocomplete="off" style="padding: 15px 15px;">
+                  </select> -->
+                  <select name="select-country" id="select-country">
+                  </select>
                 </div>
 
                 <div class="col-md-4">
+                  <input type="tel" autocomplete="off" name="phone" class="form-control" placeholder="number phone"
+                    required>
+                </div>
+
+                <div class="col-md-6">
                   <input type="email" autocapitalize="words" autocomplete="off" class="form-control" name="email"
-                    placeholder="Email" required="">
+                    placeholder="Email" required>
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-6">
                   <input type="text" autocapitalize="words" autocomplete="off" class="form-control" name="subject"
                     placeholder="Subject" required="">
                 </div>
 
                 <div class="col-md-12">
                   <textarea autocapitalize="words" autocomplete="off" class="form-control" name="message" rows="8"
-                    placeholder="Message" required=""></textarea>
+                    placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-6">
+                  <input type="hidden" autocapitalize="words" autocomplete="off" id="geo" class="form-control"
+                    name="geo">
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -684,9 +764,13 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
+  <!-- Tom Select -->
+   <script src="assets/vendor/tom-select/js/tom-select.complete.min.js"></script>
+
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/lenguage.js"></script>
+  <script src="assets/js/internationalprefix.js"></script>
 
 </body>
 

@@ -7,7 +7,6 @@
 */
 
 (function () {
-  "use strict";
 
   /**
    * Apply .scrolled class to the body as the page is scrolled down
@@ -63,7 +62,44 @@
   /**
    * Preloader
    */
+
+  var treeLoader = `
+  <div class="tree">
+      <div class="branch" style="--x:0">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <div class="branch" style="--x:1">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <div class="branch" style="--x:2">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <div class="branch" style="--x:3">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <div class="stem">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <span class="shadow"></span>
+    </div>`
+
   const preloader = document.querySelector('#preloader');
+  preloader.innerHTML = treeLoader;
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
@@ -209,7 +245,47 @@
       }
     })
   }
+
+
+
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
+
+
+  /**
+   * SELECT COUNTRY
+   * 
+   */
+
+  const selecCountry = async () => {
+    const selectCountry = document.getElementById('select-country');
+    const requesJson = await fetch(`assets/json/prefix.json`);
+    const texts = await requesJson.json();
+
+
+    var options = `<option value="">Where do you write from</option>`;
+
+    texts.forEach(function (element, index) {
+      options += `<option value="${element.PREFIJO}"> ${element.PAIS}</option>`
+    });
+
+    selectCountry.innerHTML = options;
+
+    new TomSelect("#select-country", {
+      create: true,
+      sortField: {
+        field: "text",
+        direction: "asc"
+      }
+    });
+
+  }
+
+  selecCountry();
+
+
+
+
+
 
 })();

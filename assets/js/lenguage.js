@@ -4,6 +4,42 @@ const btnElements = document.getElementById('language');
 // Seleccionamos todas las secciones
 const txtsToChange = document.querySelectorAll('[data-section]');
 
+
+var treeLoader = `
+  <div class="tree">
+      <div class="branch" style="--x:0">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <div class="branch" style="--x:1">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <div class="branch" style="--x:2">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <div class="branch" style="--x:3">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <div class="stem">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+      <span class="shadow"></span>
+    </div>`
+
 // Funcion para cargar el archivo segun el idioma
 const changeLanguage = async language => {
     const requesJson = await fetch(`assets/lenguages/${language}.json`);
@@ -12,6 +48,7 @@ const changeLanguage = async language => {
     const container = document.getElementById('body');
     const loader = document.createElement('div');
     loader.id = 'preloader';
+    // loader.innerHTML = treeLoader;
     container.appendChild(loader);
 
     setTimeout(function () {

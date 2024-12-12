@@ -1,0 +1,986 @@
+[
+    {
+        "PAIS": "Bermudas",
+        "PREFIJO": "1-441"
+    },
+    {
+        "PAIS": "Canadá",
+        "PREFIJO": "1"
+    },
+    {
+        "PAIS": "EE.UU.",
+        "PREFIJO": "1"
+    },
+    {
+        "PAIS": "Groenlandia",
+        "PREFIJO": "299"
+    },
+    {
+        "PAIS": "México",
+        "PREFIJO": "52"
+    },
+    {
+        "PAIS": "San Pedro y Miquelón",
+        "PREFIJO": "508"
+    },
+    {
+        "PAIS": "Anguila",
+        "PREFIJO": "1-264"
+    },
+    {
+        "PAIS": "Antigua y Barbuda",
+        "PREFIJO": "1-268"
+    },
+    {
+        "PAIS": "Aruba",
+        "PREFIJO": "297"
+    },
+    {
+        "PAIS": "Bahamas",
+        "PREFIJO": "1-242"
+    },
+    {
+        "PAIS": "Barbados",
+        "PREFIJO": "1-246"
+    },
+    {
+        "PAIS": "Belice",
+        "PREFIJO": "501"
+    },
+    {
+        "PAIS": "Caribe Neerlandés",
+        "PREFIJO": "599"
+    },
+    {
+        "PAIS": "Costa Rica",
+        "PREFIJO": "506"
+    },
+    {
+        "PAIS": "Cuba",
+        "PREFIJO": "53"
+    },
+    {
+        "PAIS": "Curaçao",
+        "PREFIJO": "599"
+    },
+    {
+        "PAIS": "Dominica",
+        "PREFIJO": "1-767"
+    },
+    {
+        "PAIS": "El Salvador",
+        "PREFIJO": "503"
+    },
+    {
+        "PAIS": "Granada",
+        "PREFIJO": "1-473"
+    },
+    {
+        "PAIS": "Guadalupe",
+        "PREFIJO": "590"
+    },
+    {
+        "PAIS": "Guatemala",
+        "PREFIJO": "502"
+    },
+    {
+        "PAIS": "Haití",
+        "PREFIJO": "509"
+    },
+    {
+        "PAIS": "Honduras",
+        "PREFIJO": "504"
+    },
+    {
+        "PAIS": "Islas Caimán",
+        "PREFIJO": "1-345"
+    },
+    {
+        "PAIS": "Islas Vírgenes (UK)",
+        "PREFIJO": "1-284"
+    },
+    {
+        "PAIS": "Jamaica",
+        "PREFIJO": "1-876"
+    },
+    {
+        "PAIS": "Martinica",
+        "PREFIJO": "596"
+    },
+    {
+        "PAIS": "Montserrat",
+        "PREFIJO": "1-664"
+    },
+    {
+        "PAIS": "Nicaragua",
+        "PREFIJO": "505"
+    },
+    {
+        "PAIS": "Panamá",
+        "PREFIJO": "507"
+    },
+    {
+        "PAIS": "Puerto Rico",
+        "PREFIJO": "1-787"
+    },
+    {
+        "PAIS": "República Dominicana",
+        "PREFIJO": "1-809"
+    },
+    {
+        "PAIS": "San Bartolomé",
+        "PREFIJO": "590"
+    },
+    {
+        "PAIS": "San Cristóbal",
+        "PREFIJO": "1-869"
+    },
+    {
+        "PAIS": "San Martín",
+        "PREFIJO": "590"
+    },
+    {
+        "PAIS": "San Vicente y las Granadinas",
+        "PREFIJO": "1-784"
+    },
+    {
+        "PAIS": "Santa Lucía",
+        "PREFIJO": "1-758"
+    },
+    {
+        "PAIS": "Sint Maarten",
+        "PREFIJO": "1-721"
+    },
+    {
+        "PAIS": "Trinidad y Tobago",
+        "PREFIJO": "1-868"
+    },
+    {
+        "PAIS": "Turcas y Caicos",
+        "PREFIJO": "1-649"
+    },
+    {
+        "PAIS": "Vírgenes Americanas",
+        "PREFIJO": "1-340"
+    },
+    {
+        "PAIS": "Argentina",
+        "PREFIJO": "54"
+    },
+    {
+        "PAIS": "Bolivia",
+        "PREFIJO": "591"
+    },
+    {
+        "PAIS": "Brasil",
+        "PREFIJO": "55"
+    },
+    {
+        "PAIS": "Chile",
+        "PREFIJO": "56"
+    },
+    {
+        "PAIS": "Colombia",
+        "PREFIJO": "57"
+    },
+    {
+        "PAIS": "Ecuador",
+        "PREFIJO": "593"
+    },
+    {
+        "PAIS": "Georgia del Sur",
+        "PREFIJO": "500"
+    },
+    {
+        "PAIS": "Guayana",
+        "PREFIJO": "592"
+    },
+    {
+        "PAIS": "Guayana Francesa",
+        "PREFIJO": "594"
+    },
+    {
+        "PAIS": "Malvinas",
+        "PREFIJO": "500"
+    },
+    {
+        "PAIS": "Paraguay",
+        "PREFIJO": "595"
+    },
+    {
+        "PAIS": "Perú",
+        "PREFIJO": "51"
+    },
+    {
+        "PAIS": "Surinam",
+        "PREFIJO": "597"
+    },
+    {
+        "PAIS": "Uruguay",
+        "PREFIJO": "598"
+    },
+    {
+        "PAIS": "Venezuela",
+        "PREFIJO": "58"
+    },
+    {
+        "PAIS": "Albania",
+        "PREFIJO": "355"
+    },
+    {
+        "PAIS": "Alemania",
+        "PREFIJO": "49"
+    },
+    {
+        "PAIS": "Andorra",
+        "PREFIJO": "376"
+    },
+    {
+        "PAIS": "Austria",
+        "PREFIJO": "43"
+    },
+    {
+        "PAIS": "Belarús",
+        "PREFIJO": "375"
+    },
+    {
+        "PAIS": "Bélgica",
+        "PREFIJO": "32"
+    },
+    {
+        "PAIS": "Bosnia y Hercegovina",
+        "PREFIJO": "387"
+    },
+    {
+        "PAIS": "Bulgaria",
+        "PREFIJO": "359"
+    },
+    {
+        "PAIS": "Chequia",
+        "PREFIJO": "420"
+    },
+    {
+        "PAIS": "Croacia",
+        "PREFIJO": "385"
+    },
+    {
+        "PAIS": "Dinamarca",
+        "PREFIJO": "45"
+    },
+    {
+        "PAIS": "Eslovaquia",
+        "PREFIJO": "421"
+    },
+    {
+        "PAIS": "Eslovenia",
+        "PREFIJO": "386"
+    },
+    {
+        "PAIS": "España",
+        "PREFIJO": "34"
+    },
+    {
+        "PAIS": "Estonia",
+        "PREFIJO": "372"
+    },
+    {
+        "PAIS": "Finlandia",
+        "PREFIJO": "358"
+    },
+    {
+        "PAIS": "Francia",
+        "PREFIJO": "33"
+    },
+    {
+        "PAIS": "Gibraltar",
+        "PREFIJO": "350"
+    },
+    {
+        "PAIS": "Grecia",
+        "PREFIJO": "30"
+    },
+    {
+        "PAIS": "Guernsey",
+        "PREFIJO": "44-1481"
+    },
+    {
+        "PAIS": "Hungría",
+        "PREFIJO": "36"
+    },
+    {
+        "PAIS": "Irlanda",
+        "PREFIJO": "353"
+    },
+    {
+        "PAIS": "Isla de Man",
+        "PREFIJO": "44-1624"
+    },
+    {
+        "PAIS": "Islandia",
+        "PREFIJO": "354"
+    },
+    {
+        "PAIS": "Islas Åland",
+        "PREFIJO": "358"
+    },
+    {
+        "PAIS": "Islas Feroe",
+        "PREFIJO": "298"
+    },
+    {
+        "PAIS": "Italia",
+        "PREFIJO": "39"
+    },
+    {
+        "PAIS": "Jersey",
+        "PREFIJO": "44-1534"
+    },
+    {
+        "PAIS": "Kosovo",
+        "PREFIJO": "383"
+    },
+    {
+        "PAIS": "Letonia",
+        "PREFIJO": "371"
+    },
+    {
+        "PAIS": "Liechtenstein",
+        "PREFIJO": "423"
+    },
+    {
+        "PAIS": "Lituania",
+        "PREFIJO": "370"
+    },
+    {
+        "PAIS": "Luxemburgo",
+        "PREFIJO": "352"
+    },
+    {
+        "PAIS": "Macedonia del Norte",
+        "PREFIJO": "389"
+    },
+    {
+        "PAIS": "Malta",
+        "PREFIJO": "356"
+    },
+    {
+        "PAIS": "Moldavia",
+        "PREFIJO": "373"
+    },
+    {
+        "PAIS": "Mónaco",
+        "PREFIJO": "377"
+    },
+    {
+        "PAIS": "Montenegro",
+        "PREFIJO": "382"
+    },
+    {
+        "PAIS": "Noruega",
+        "PREFIJO": "47"
+    },
+    {
+        "PAIS": "Países Bajos",
+        "PREFIJO": "31"
+    },
+    {
+        "PAIS": "Polonia",
+        "PREFIJO": "48"
+    },
+    {
+        "PAIS": "Portugal",
+        "PREFIJO": "351"
+    },
+    {
+        "PAIS": "Reino Unido",
+        "PREFIJO": "44"
+    },
+    {
+        "PAIS": "Rumania",
+        "PREFIJO": "40"
+    },
+    {
+        "PAIS": "Rusia",
+        "PREFIJO": "7"
+    },
+    {
+        "PAIS": "San Marino",
+        "PREFIJO": "378"
+    },
+    {
+        "PAIS": "Serbia",
+        "PREFIJO": "381"
+    },
+    {
+        "PAIS": "Suecia",
+        "PREFIJO": "46"
+    },
+    {
+        "PAIS": "Suiza",
+        "PREFIJO": "41"
+    },
+    {
+        "PAIS": "Svalbard",
+        "PREFIJO": "47"
+    },
+    {
+        "PAIS": "Ucrania",
+        "PREFIJO": "380"
+    },
+    {
+        "PAIS": "Vaticano",
+        "PREFIJO": "39-6"
+    },
+    {
+        "PAIS": "Angola",
+        "PREFIJO": "244"
+    },
+    {
+        "PAIS": "Argelia",
+        "PREFIJO": "213"
+    },
+    {
+        "PAIS": "Benín",
+        "PREFIJO": "229"
+    },
+    {
+        "PAIS": "Botsuana",
+        "PREFIJO": "267"
+    },
+    {
+        "PAIS": "Burkina Faso",
+        "PREFIJO": "226"
+    },
+    {
+        "PAIS": "Burundi",
+        "PREFIJO": "257"
+    },
+    {
+        "PAIS": "Cabo Verde",
+        "PREFIJO": "238"
+    },
+    {
+        "PAIS": "Camerún",
+        "PREFIJO": "237"
+    },
+    {
+        "PAIS": "Centroáfrica",
+        "PREFIJO": "236"
+    },
+    {
+        "PAIS": "Chad",
+        "PREFIJO": "235"
+    },
+    {
+        "PAIS": "Comores",
+        "PREFIJO": "269"
+    },
+    {
+        "PAIS": "Congo",
+        "PREFIJO": "242"
+    },
+    {
+        "PAIS": "Congo (Rep. Democr.)",
+        "PREFIJO": "243"
+    },
+    {
+        "PAIS": "Costa de Marfil",
+        "PREFIJO": "225"
+    },
+    {
+        "PAIS": "Egipto",
+        "PREFIJO": "20"
+    },
+    {
+        "PAIS": "Eritrea",
+        "PREFIJO": "291"
+    },
+    {
+        "PAIS": "Esuatini",
+        "PREFIJO": "268"
+    },
+    {
+        "PAIS": "Etiopía",
+        "PREFIJO": "251"
+    },
+    {
+        "PAIS": "Gabón",
+        "PREFIJO": "241"
+    },
+    {
+        "PAIS": "Gambia",
+        "PREFIJO": "220"
+    },
+    {
+        "PAIS": "Ghana",
+        "PREFIJO": "233"
+    },
+    {
+        "PAIS": "Guinea",
+        "PREFIJO": "224"
+    },
+    {
+        "PAIS": "Guinea Ecuatorial",
+        "PREFIJO": "240"
+    },
+    {
+        "PAIS": "Guinea-Bissau",
+        "PREFIJO": "245"
+    },
+    {
+        "PAIS": "Kenia",
+        "PREFIJO": "254"
+    },
+    {
+        "PAIS": "Lesotho",
+        "PREFIJO": "266"
+    },
+    {
+        "PAIS": "Liberia",
+        "PREFIJO": "231"
+    },
+    {
+        "PAIS": "Libia",
+        "PREFIJO": "218"
+    },
+    {
+        "PAIS": "Madagascar",
+        "PREFIJO": "261"
+    },
+    {
+        "PAIS": "Malaui",
+        "PREFIJO": "265"
+    },
+    {
+        "PAIS": "Malí",
+        "PREFIJO": "223"
+    },
+    {
+        "PAIS": "Marruecos",
+        "PREFIJO": "212"
+    },
+    {
+        "PAIS": "Mauricio",
+        "PREFIJO": "230"
+    },
+    {
+        "PAIS": "Mauritania",
+        "PREFIJO": "222"
+    },
+    {
+        "PAIS": "Mayotte",
+        "PREFIJO": "262"
+    },
+    {
+        "PAIS": "Mozambique",
+        "PREFIJO": "258"
+    },
+    {
+        "PAIS": "Namibia",
+        "PREFIJO": "264"
+    },
+    {
+        "PAIS": "Níger",
+        "PREFIJO": "227"
+    },
+    {
+        "PAIS": "Nigeria",
+        "PREFIJO": "234"
+    },
+    {
+        "PAIS": "Reunión",
+        "PREFIJO": "262"
+    },
+    {
+        "PAIS": "Ruanda",
+        "PREFIJO": "250"
+    },
+    {
+        "PAIS": "Sáhara Occ.",
+        "PREFIJO": "212"
+    },
+    {
+        "PAIS": "Santa Elena",
+        "PREFIJO": "290"
+    },
+    {
+        "PAIS": "Santo Tomé y Príncipe",
+        "PREFIJO": "239"
+    },
+    {
+        "PAIS": "Senegal",
+        "PREFIJO": "221"
+    },
+    {
+        "PAIS": "Seychelles",
+        "PREFIJO": "248"
+    },
+    {
+        "PAIS": "Sierra Leona",
+        "PREFIJO": "232"
+    },
+    {
+        "PAIS": "Somalia",
+        "PREFIJO": "252"
+    },
+    {
+        "PAIS": "Sudáfrica",
+        "PREFIJO": "27"
+    },
+    {
+        "PAIS": "Sudán",
+        "PREFIJO": "249"
+    },
+    {
+        "PAIS": "Sudán del Sur",
+        "PREFIJO": "211"
+    },
+    {
+        "PAIS": "Tanzania",
+        "PREFIJO": "255"
+    },
+    {
+        "PAIS": "Territorio Británico",
+        "PREFIJO": "246"
+    },
+    {
+        "PAIS": "Togo",
+        "PREFIJO": "228"
+    },
+    {
+        "PAIS": "Túnez",
+        "PREFIJO": "216"
+    },
+    {
+        "PAIS": "Uganda",
+        "PREFIJO": "256"
+    },
+    {
+        "PAIS": "Yibuti",
+        "PREFIJO": "253"
+    },
+    {
+        "PAIS": "Zambia",
+        "PREFIJO": "260"
+    },
+    {
+        "PAIS": "Zimbabue",
+        "PREFIJO": "263"
+    },
+    {
+        "PAIS": "Afganistán",
+        "PREFIJO": "93"
+    },
+    {
+        "PAIS": "Arabia Saudita",
+        "PREFIJO": "966"
+    },
+    {
+        "PAIS": "Armenia",
+        "PREFIJO": "374"
+    },
+    {
+        "PAIS": "Azerbaiyán",
+        "PREFIJO": "994"
+    },
+    {
+        "PAIS": "Bahrein",
+        "PREFIJO": "973"
+    },
+    {
+        "PAIS": "Bangladesh",
+        "PREFIJO": "880"
+    },
+    {
+        "PAIS": "Brunéi",
+        "PREFIJO": "673"
+    },
+    {
+        "PAIS": "Bután",
+        "PREFIJO": "975"
+    },
+    {
+        "PAIS": "Camboya",
+        "PREFIJO": "855"
+    },
+    {
+        "PAIS": "Catar",
+        "PREFIJO": "974"
+    },
+    {
+        "PAIS": "China",
+        "PREFIJO": "86"
+    },
+    {
+        "PAIS": "Chipre",
+        "PREFIJO": "357"
+    },
+    {
+        "PAIS": "Corea del Norte",
+        "PREFIJO": "850"
+    },
+    {
+        "PAIS": "Corea del Sur",
+        "PREFIJO": "82"
+    },
+    {
+        "PAIS": "Emiratos Árabes",
+        "PREFIJO": "971"
+    },
+    {
+        "PAIS": "Filipinas",
+        "PREFIJO": "63"
+    },
+    {
+        "PAIS": "Georgia",
+        "PREFIJO": "995"
+    },
+    {
+        "PAIS": "Hong Kong",
+        "PREFIJO": "852"
+    },
+    {
+        "PAIS": "India",
+        "PREFIJO": "91"
+    },
+    {
+        "PAIS": "Indonesia",
+        "PREFIJO": "62"
+    },
+    {
+        "PAIS": "Irán",
+        "PREFIJO": "98"
+    },
+    {
+        "PAIS": "Iraq",
+        "PREFIJO": "964"
+    },
+    {
+        "PAIS": "Israel",
+        "PREFIJO": "972"
+    },
+    {
+        "PAIS": "Japón",
+        "PREFIJO": "81"
+    },
+    {
+        "PAIS": "Jordania",
+        "PREFIJO": "962"
+    },
+    {
+        "PAIS": "Kazajistán​​​",
+        "PREFIJO": "997"
+    },
+    {
+        "PAIS": "Kirguistán",
+        "PREFIJO": "996"
+    },
+    {
+        "PAIS": "Kuwait",
+        "PREFIJO": "965"
+    },
+    {
+        "PAIS": "Laos",
+        "PREFIJO": "856"
+    },
+    {
+        "PAIS": "Líbano",
+        "PREFIJO": "961"
+    },
+    {
+        "PAIS": "Macao",
+        "PREFIJO": "853"
+    },
+    {
+        "PAIS": "Malasia",
+        "PREFIJO": "60"
+    },
+    {
+        "PAIS": "Maldivas",
+        "PREFIJO": "960"
+    },
+    {
+        "PAIS": "Mongolia",
+        "PREFIJO": "976"
+    },
+    {
+        "PAIS": "Myanmar",
+        "PREFIJO": "95"
+    },
+    {
+        "PAIS": "Nepal",
+        "PREFIJO": "977"
+    },
+    {
+        "PAIS": "Omán",
+        "PREFIJO": "968"
+    },
+    {
+        "PAIS": "Pakistán",
+        "PREFIJO": "92"
+    },
+    {
+        "PAIS": "Palestina",
+        "PREFIJO": "970"
+    },
+    {
+        "PAIS": "Singapur",
+        "PREFIJO": "65"
+    },
+    {
+        "PAIS": "Siria",
+        "PREFIJO": "963"
+    },
+    {
+        "PAIS": "Sri Lanka",
+        "PREFIJO": "94"
+    },
+    {
+        "PAIS": "Tailandia",
+        "PREFIJO": "66"
+    },
+    {
+        "PAIS": "Taiwán",
+        "PREFIJO": "886"
+    },
+    {
+        "PAIS": "Tayikistán",
+        "PREFIJO": "992"
+    },
+    {
+        "PAIS": "Timor Oriental",
+        "PREFIJO": "670"
+    },
+    {
+        "PAIS": "Turkmenistán",
+        "PREFIJO": "993"
+    },
+    {
+        "PAIS": "Turquía",
+        "PREFIJO": "90"
+    },
+    {
+        "PAIS": "Uzbekistán",
+        "PREFIJO": "998"
+    },
+    {
+        "PAIS": "Vietnam",
+        "PREFIJO": "84"
+    },
+    {
+        "PAIS": "Yemen",
+        "PREFIJO": "967"
+    },
+    {
+        "PAIS": "Australia",
+        "PREFIJO": "61"
+    },
+    {
+        "PAIS": "Fiyi",
+        "PREFIJO": "679"
+    },
+    {
+        "PAIS": "Guam",
+        "PREFIJO": "1-671"
+    },
+    {
+        "PAIS": "Isla de Navidad",
+        "PREFIJO": "61"
+    },
+    {
+        "PAIS": "Isla Norfolk",
+        "PREFIJO": "6723"
+    },
+    {
+        "PAIS": "Islas Cocos",
+        "PREFIJO": "61-891"
+    },
+    {
+        "PAIS": "Islas Cook",
+        "PREFIJO": "682"
+    },
+    {
+        "PAIS": "Islas Marianas",
+        "PREFIJO": "1-670"
+    },
+    {
+        "PAIS": "Islas Marshall",
+        "PREFIJO": "692"
+    },
+    {
+        "PAIS": "Islas Pitcairn",
+        "PREFIJO": "649"
+    },
+    {
+        "PAIS": "Islas Salomón",
+        "PREFIJO": "677"
+    },
+    {
+        "PAIS": "Islas ultramarinas",
+        "PREFIJO": "1"
+    },
+    {
+        "PAIS": "Kiribati",
+        "PREFIJO": "686"
+    },
+    {
+        "PAIS": "Micronesia",
+        "PREFIJO": "691"
+    },
+    {
+        "PAIS": "Nauru",
+        "PREFIJO": "674"
+    },
+    {
+        "PAIS": "Niue",
+        "PREFIJO": "683"
+    },
+    {
+        "PAIS": "Nueva Caledonia",
+        "PREFIJO": "687"
+    },
+    {
+        "PAIS": "Nueva Zelandia",
+        "PREFIJO": "64"
+    },
+    {
+        "PAIS": "Palaos",
+        "PREFIJO": "680"
+    },
+    {
+        "PAIS": "Papúa Nueva Guinea",
+        "PREFIJO": "675"
+    },
+    {
+        "PAIS": "Polinesia Francesa",
+        "PREFIJO": "689"
+    },
+    {
+        "PAIS": "Samoa",
+        "PREFIJO": "685"
+    },
+    {
+        "PAIS": "Samoa Americana",
+        "PREFIJO": "1-684"
+    },
+    {
+        "PAIS": "Tokelau",
+        "PREFIJO": "690"
+    },
+    {
+        "PAIS": "Tonga",
+        "PREFIJO": "676"
+    },
+    {
+        "PAIS": "Tuvalu",
+        "PREFIJO": "688"
+    },
+    {
+        "PAIS": "Vanuatu",
+        "PREFIJO": "678"
+    },
+    {
+        "PAIS": "Wallis y Futuna",
+        "PREFIJO": "681"
+    }
+]

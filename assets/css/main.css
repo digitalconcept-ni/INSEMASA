@@ -558,13 +558,14 @@ h6 {
   font-size: 13px;
 }
 
-.title-desing{
+.title-desing {
   color: var(--background-color-2);
 }
 
-.title-desing:hover{
+.title-desing:hover {
   color: var(--nav-dropdown-hover-color);
 }
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -575,9 +576,14 @@ h6 {
   overflow: hidden;
   background: var(--background-color);
   transition: all 0.6s ease-out;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#preloader:before {
+/* #preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
@@ -598,7 +604,7 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # whatsapp Button
@@ -634,6 +640,7 @@ h6 {
   opacity: 1;
   bottom: 70px;
 }
+
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
@@ -940,11 +947,11 @@ section,
 # About Section
 --------------------------------------------------------------*/
 
-.container-text{
+.container-text {
   position: relative;
 }
 
-.logo-background{
+.logo-background {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1363,12 +1370,13 @@ section,
   margin: 30px 15px;
   position: relative;
   height: 100%;
+
 }
 
 .news .news-item .news-img {
   width: 300px;
-  /* border-radius: 50px; */
-  margin-right: 15px;
+  border-radius: 5px;
+  margin-left: 15px;
 }
 
 .news .news-item h3 {
@@ -1473,14 +1481,14 @@ section,
   object-position: center;
 }
 
-.item2{
+.item2 {
   background-color: var(--accent-color);
   display: flex;
   align-items: center;
   padding: .5rem;
 }
 
-.item2 h4{
+.item2 h4 {
   color: white;
   /* font-size: .8rem; */
 }
@@ -1622,6 +1630,8 @@ section,
 
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email],
+.contact .php-email-form input[type=tel],
+.contact .php-email-form select,
 .contact .php-email-form textarea {
   font-size: 14px;
   padding: 10px 15px;
@@ -1634,12 +1644,17 @@ section,
 
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
+.contact .php-email-form input[type=tel]:focus,
+.contact .php-email-form select:focus,
 .contact .php-email-form textarea:focus {
   border-color: var(--accent-color);
 }
 
 .contact .php-email-form input[type=text]::placeholder,
 .contact .php-email-form input[type=email]::placeholder,
+.contact .php-email-form input[type=tel]::placeholder,
+.contact .php-email-form select::placeholder,
+.contact .php-email-form select option::placeholder,
 .contact .php-email-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
@@ -1842,4 +1857,8 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+.ts-control{
+  padding: 12px 8px !important;
 }
