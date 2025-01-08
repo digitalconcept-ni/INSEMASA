@@ -6,6 +6,7 @@
   forms.forEach(function (e) {
     e.addEventListener('submit', function (event) {
       event.preventDefault();
+      obtenerInformacionGeograficaIpinfo();
 
       let thisForm = this;
 

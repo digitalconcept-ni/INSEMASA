@@ -28,12 +28,3 @@ async function obtenerInformacionGeograficaIpinfo() {
         console.error('Error al obtener información geográfica:', error);
     }
 }
-
-const inputName = document.getElementById('name');
-
-// Para optener la informacion, la optenemos unicamente cuando el usuario
-// tiene el foco cuando vaya a ingresar el nombre
-inputName.addEventListener('focus', function () {
-    console.log('ddd')
-    obtenerInformacionGeograficaIpinfo();
-})

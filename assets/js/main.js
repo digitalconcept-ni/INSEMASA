@@ -63,43 +63,8 @@
    * Preloader
    */
 
-  var treeLoader = `
-  <div class="tree">
-      <div class="branch" style="--x:0">
-        <span style="--i:0;"></span>
-        <span style="--i:1;"></span>
-        <span style="--i:2;"></span>
-        <span style="--i:3;"></span>
-      </div>
-      <div class="branch" style="--x:1">
-        <span style="--i:0;"></span>
-        <span style="--i:1;"></span>
-        <span style="--i:2;"></span>
-        <span style="--i:3;"></span>
-      </div>
-      <div class="branch" style="--x:2">
-        <span style="--i:0;"></span>
-        <span style="--i:1;"></span>
-        <span style="--i:2;"></span>
-        <span style="--i:3;"></span>
-      </div>
-      <div class="branch" style="--x:3">
-        <span style="--i:0;"></span>
-        <span style="--i:1;"></span>
-        <span style="--i:2;"></span>
-        <span style="--i:3;"></span>
-      </div>
-      <div class="stem">
-        <span style="--i:0;"></span>
-        <span style="--i:1;"></span>
-        <span style="--i:2;"></span>
-        <span style="--i:3;"></span>
-      </div>
-      <span class="shadow"></span>
-    </div>`
-
   const preloader = document.querySelector('#preloader');
-  preloader.innerHTML = treeLoader;
+  
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
