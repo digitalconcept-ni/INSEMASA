@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------
+# Pagination 2 Section
+--------------------------------------------------------------*/
+.pagination-2 {
+    padding-top: 0;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+  }
+  
+  .pagination-2 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .pagination-2 li {
+    margin: 0 5px;
+    transition: 0.3s;
+  }
+  
+  .pagination-2 li a {
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    padding: 7px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pagination-2 li.active,
+  .pagination-2 li:hover {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+  }
+  
+  .pagination-2 li.active a,
+  .pagination-2 li:hover a {
+    color: var(--contrast-color);
+  }
