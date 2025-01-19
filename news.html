@@ -36,7 +36,7 @@
 
 </head>
 
-<body class="news-page">
+<body class="news-page" id="body">
 
   <header id="header" class="header fixed-top">
 
@@ -65,13 +65,13 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active" data-section="navmenu" data-value="inicio">Inicio<br></a></li>
-            <li><a href="#about" data-section="navmenu" data-value="nosotros">Nosotros</a></li>
-            <li><a href="#products" data-section="navmenu" data-value="productos">Productos</a></li>
-            <li><a href="#clients" data-section="navmenu" data-value="aliados">Socios</a></li>
-            <li><a href="#news" data-section="navmenu" data-value="noticias">Noticias</a></li>
-            <li><a href="#galery" data-section="navmenu" data-value="galeria">Galeria</a></li>
-            <li><a href="#contact" data-section="navmenu" data-value="contacto">Contacto</a></li>
+            <li><a href="index.html#hero" class="active" data-section="navmenu" data-value="inicio">Inicio<br></a></li>
+            <li><a href="index.html#about" data-section="navmenu" data-value="nosotros">Nosotros</a></li>
+            <li><a href="index.html#products" data-section="navmenu" data-value="productos">Productos</a></li>
+            <li><a href="index.html#clients" data-section="navmenu" data-value="aliados">Socios</a></li>
+            <li><a href="index.html#news" data-section="navmenu" data-value="noticias">Noticias</a></li>
+            <li><a href="index.html#galery" data-section="navmenu" data-value="galeria">Galeria</a></li>
+            <li><a href="index.html#contact" data-section="navmenu" data-value="contacto">Contacto</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -90,8 +90,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Noticias</h1>
-              <p class="mb-0">
+              <h1 data-section="heading" data-value="title">Noticias</h1>
+              <p class="mb-0" data-section="heading" data-value="description">
                 En INSEMASA, creemos en un futuro donde la agricultura no solo nutre,
                 sino que también protege nuestro planeta. </p>
             </div>
@@ -101,8 +101,8 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Noticias</li>
+            <li><a href="index.html" data-section="breadcrumbs" data-value="home">Inicio</a></li>
+            <li class="current" data-section="breadcrumbs" data-value="active">Noticias</li>
           </ol>
         </div>
       </nav>
@@ -122,15 +122,15 @@
               </div>
 
               <h2 class="title">
-                <a href="news-details.html">Una empresa nueva en la exportacion de sesamo nicaraguense.</a>
+                <a href="news-details.html" data-section="post" data-value="post-title">Una empresa nueva en la exportación de sésamo nicaragüense.</a>
               </h2>
 
               <div class="d-flex align-items-center">
                 <img src="assets/img/favicon.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Ing. Erwin Aragón</p>
+                  <p class="post-author">INSEMASA</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2025</time>
+                    <time datetime="2022-01-01" data-section="post" data-value="date">Enero 10, 2025</time>
                   </p>
                 </div>
               </div>
@@ -138,53 +138,6 @@
             </article>
           </div><!-- End post list item -->
 
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/news/new-3.webp" alt="" class="img-fluid">
-              </div>
-
-              <h2 class="title">
-                <a href="news-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/favicon.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Ing. Erwin Aragón</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2025</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/news/new-5.webp" alt="" class="img-fluid">
-              </div>
-
-              <h2 class="title">
-                <a href="news-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/favicon.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Ing. Erwin Aragón</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2025</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
 
         </div>
       </div>
@@ -197,9 +150,9 @@
       <div class="container">
         <div class="d-flex justify-content-center">
           <ul>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
+
+            <li class="active"><a href="#">1</a></li>
+
           </ul>
         </div>
       </div>
@@ -214,9 +167,9 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">INSEMASA</span>
+            <span class="sitename" data-section="footer-top" data-value="title">INSEMASA</span>
           </a>
-          <p> Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad
+          <p data-section="footer-top" data-value="description">Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad
             excepcional de pequeñas granjas y cooperativas en Nicaragua.</p>
           <!-- <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -227,33 +180,32 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Enlaces de interés</h4>
+          <h4  data-section="footer-top" data-value="c1-title">Enlaces de interés</h4>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Socios</a></li>
-            <li><a href="#">Noticias</a></li>
-            <li><a href="#">Galeria</a></li>
+            <li><a href="index.html" class="active" data-section="footer-top" data-value="inicio">Inicio<br></a></li>
+            <li><a href="index.html#about" data-section="footer-top" data-value="nosotros">Nosotros</a></li>
+            <li><a href="index.html#products" data-section="footer-top" data-value="productos">Productos</a></li>
+            <li><a href="index.html#clients" data-section="footer-top" data-value="aliados">Socios</a></li>
+            <li><a href="news.html" data-section="footer-top" data-value="noticias">Noticias</a></li>
+            <li><a href="galery.html" data-section="footer-top" data-value="galeria">Galería</a></li>
+            <li><a href="index.html#contact" data-section="footer-top" data-value="contacto">Contacto</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Productos</h4>
+          <h4  data-section="footer-top" data-value="c2-title">Productos</h4>
           <ul>
-            <li><a href="#">Ajonjolí</a></li>
-            <li><a href="#">Maní</a></li>
+            <li><a href="index.html#products"  data-section="footer-top" data-value="p1">Ajonjolí</a></li>
+            <li><a href="index.html#products"  data-section="footer-top" data-value="p2">Maní</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contactanos</h4>
-          <p>Managua Nicaragua</p>
-          <p>rotonda de Bello Horizonte</p>
-          <p>dos cuadras al sur</p>
-          <p>tres cuadras abajo</p>
-          <p> tope a mano izquierda casa número A-II - 44</p>
-          <p class="mt-4"><strong>Telefono:</strong> <span>+505 50585657978</span></p>
+          <h4 data-section="footer-top" data-value="c3-title">Contáctanos</h4>
+          <p data-section="footer-top" data-value="desc1">Managua Nicaragua, rotonda de Bello Horizonte</p>
+          <p data-section="footer-top" data-value="desc2">dos cuadras al sur, tres cuadras abajo</p>
+          <p data-section="footer-top" data-value="desc3">tope a mano izquierda casa número A-II - 44</p>
+          <p class="mt-4"><strong data-section="footer-top" data-value="phone">Teléfono:</strong> <span>+505 50585657978</span></p>
           <p><strong>Email:</strong> <span>erwin.Aragón@insemasa.com</span></p>
         </div>
 
@@ -297,6 +249,8 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- lenguage JS File -->
+  <script src="assets/js/lenguage.js"></script>
 
 </body>
 

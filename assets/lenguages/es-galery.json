@@ -1,0 +1,43 @@
+{
+    "navmenu": {
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galería",
+        "contacto": "Contacto"
+    },
+    "heading": {
+        "title": "Galería",
+        "description": "En INSEMASA, creemos en un futuro donde la agricultura no solo nutre,sino que también protege nuestro planeta."
+    },
+    "breadcrumbs": {
+        "home": "Inicio",
+        "active": "Galería"
+    },
+    "footer-top": {
+        "title": "INSEMASA",
+        "description": "Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad excepcional de pequeñas granjas y cooperativas en Nicaragua.",
+        "c1-titlte": "Enlaces de interés",
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galeria",
+        "contacto": "Contacto",
+        "c2-titlte": "Productos",
+        "p1": "Ajonjolí",
+        "p2": "Maní",
+        "c3-title": "Contáctanos",
+        "desc1": "Managua Nicaragua, rotonda de Bello Horizonte",
+        "desc2": "dos cuadras al sur, tres cuadras abajo",
+        "desc3": "tope a mano izquierda casa número A-II - 44",
+        "phone": "Teléfono"
+    },
+    "foot": {
+        "copy": "Todos los derechos reservados",
+        "desing": "Diseñado por"
+    }
+}

@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title> Details - Impact Bootstrap Template</title>
+  <title>INSEMASA</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -32,9 +32,12 @@
   <!-- news-details CSS File -->
   <link href="assets/css/news-details.css" rel="stylesheet">
 
+    <!-- Tom Select -->
+    <link href="assets/vendor/tom-select/css/tom-select.css" rel="stylesheet">
+
 </head>
 
-<body class="-details-page">
+<body class="-details-page" id="body">
 
   <header id="header" class="header fixed-top">
 
@@ -42,11 +45,11 @@
       <div class="container d-flex justify-content-center">
         <div class="contact-info d-flex align-items-center" id="language">
           <i class="d-flex align-items-center">
-            <img src="assets/img/en-flag.jpg" alt="en-flag" data-language="en">
+            <img src="assets/img/en-flag.webp" alt="en-flag" data-language="en">
           </i>
           <span class="btn"></span>
           <i class="d-flex align-items-center">
-            <img src="assets/img/es-flag.jpg" data-language="es" alt="es-flag">
+            <img src="assets/img/es-flag.webp" data-language="es" alt="es-flag">
           </i>
         </div>
       </div>
@@ -57,19 +60,19 @@
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/logo-white-transparente.png" alt="">
+          <img src="assets/img/logo-white-transparente.webp" alt="">
           <!-- <h1 class="sitename">INSEMASA</h1> -->
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active" data-section="navmenu" data-value="inicio">Inicio<br></a></li>
-            <li><a href="#about" data-section="navmenu" data-value="nosotros">Nosotros</a></li>
-            <li><a href="#products" data-section="navmenu" data-value="productos">Productos</a></li>
-            <li><a href="#clients" data-section="navmenu" data-value="aliados">Socios</a></li>
-            <li><a href="#news" data-section="navmenu" data-value="noticias">Noticias</a></li>
-            <li><a href="#galery" data-section="navmenu" data-value="galeria">Galeria</a></li>
-            <li><a href="#contact" data-section="navmenu" data-value="contacto">Contacto</a></li>
+            <li><a href="index.html#hero" class="active" data-section="navmenu" data-value="inicio">Inicio<br></a></li>
+            <li><a href="index.html#about" data-section="navmenu" data-value="nosotros">Nosotros</a></li>
+            <li><a href="index.html#products" data-section="navmenu" data-value="productos">Productos</a></li>
+            <li><a href="index.html#clients" data-section="navmenu" data-value="aliados">Socios</a></li>
+            <li><a href="news.html" data-section="navmenu" data-value="noticias">Noticias</a></li>
+            <li><a href="galery.html" data-section="navmenu" data-value="galeria">Galeria</a></li>
+            <li><a href="index.html#contact" data-section="navmenu" data-value="contacto">Contacto</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -88,8 +91,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Noticias</h1>
-              <p class="mb-0">
+              <h1 data-section="heading" data-value="title">Noticias</h1>
+              <p class="mb-0" data-section="heading" data-value="description">
                 En INSEMASA, creemos en un futuro donde la agricultura no solo nutre,
                 sino que también protege nuestro planeta. </p>
             </div>
@@ -99,8 +102,8 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"> Detalle</li>
+            <li><a href="index.html" data-section="breadcrumbs" data-value="home">Inicio</a></li>
+            <li class="current" data-section="breadcrumbs" data-value="active">Noticias</li>
           </ol>
         </div>
       </nav>
@@ -121,21 +124,20 @@
                   <img src="assets/img/news/ndetail-1.webp" alt="" class="img-fluid">
                 </div>
 
-                <h2 class="title">Una empresa nueva en la exportacion de sesamo nicaraguense.</h2>
+                <h2 class="title" data-section="article" data-value="title">Una empresa nueva en la exportación de sésamo nicaragüense.</h2>
 
                 <div class="meta-top">
                   <ul>
-                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="news-details.html">Ing.
-                        Erwin Aragón</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="news-details.html">INSEMASA</a></li>
                     <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="news-details.html"><time
-                          datetime="2020-01-01">Jan 5, 2025</time></a></li>
+                          datetime="2020-01-01">Jan 10, 2025</time></a></li>
 
                   </ul>
                 </div><!-- End meta top -->
 
                 <div class="content">
-                  <p>
-                    INSEMASA, una empresa nueva en la exportacion de sesamo nicaraguense, ha iniciado una colaboración
+                  <p data-section="article" data-value="p1">
+                    INSEMASA, una empresa nueva en la exportación de sésamo nicaragüense, ha iniciado una colaboración
                     con pequeños agricultores de ajonjolí, comprometidos con la agricultura familiar, para la compra de
                     sésamo a precios justos. Esta iniciativa busca apoyar a los agricultores locales, quienes a menudo
                     enfrentan desafíos para obtener un ingreso equitativo por su trabajo. </p>
@@ -146,52 +148,34 @@
                   </p> -->
 
                   <blockquote>
-                    <p>
+                    <p data-section="article" data-value="blockquote">
                       Nicaragua, con su fértil suelo y clima tropical, ha encontrado en el maní y el ajonjolí dos
                       cultivos de gran relevancia para su economía.
                     </p>
                   </blockquote>
 
-                  <p>
+                  <p data-section="article" data-value="p2">
                     El ajonjolí ha experimentado un crecimiento significativo en las exportaciones durante los últimos
                     años. Su demanda a nivel internacional, impulsada por su uso en la industria cosmética y
                     alimentaria, ha beneficiado a los productores nicaragüenses.
                   </p>
 
-                  <h3>Aseguramos la adquisición de sésamo de alta calidad.</h3>
-                  <p>
+                  <h3 data-section="article" data-value="title2">Aseguramos la adquisición de sésamo de alta calidad</h3>
+                  <p data-section="article" data-value="p3">
                     Al tiempo que promueve prácticas agrícolas sostenibles y mejora la calidad de vida de las
                     comunidades involucradas. Esta alianza no solo fortalece la economía local, sino que también fomenta
-                    el desarrollo de un sistema alimentario más justo y responsable..
+                    el desarrollo de un sistema alimentario más justo y responsable.
                   </p>
                   <img src="assets/img/news/ndetail1-3.webp" class="img-fluid" alt="">
 
-                  <h3>Alianza con entusiasmo.</h3>
-                  <p>
+                  <h3 data-section="article" data-value="title3">Alianza con entusiasmo</h3>
+                  <p data-section="article" data-value="p4">
                     Los agricultores expresan su entusiasmo por esta alianza, que les permite acceder a un mercado más
                     estable y justo, contribuyendo así a la seguridad alimentaria de la región. Con esta acción,
                     INSEMASA reafirma su compromiso con la sostenibilidad y el apoyo a la producción local.
                   </p>
-                  <p>
-                    Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla
-                    sit eaque mollitia nisi asperiores est veniam.
-                  </p>
 
                 </div><!-- End post content -->
-
-                <div class="meta-bottom">
-                  <i class="bi bi-folder"></i>
-                  <ul class="cats">
-                    <li><a href="#">Business</a></li>
-                  </ul>
-
-                  <i class="bi bi-tags"></i>
-                  <ul class="tags">
-                    <li><a href="#">Creative</a></li>
-                    <li><a href="#">Tips</a></li>
-                    <li><a href="#">Marketing</a></li>
-                  </ul>
-                </div><!-- End meta bottom -->
 
               </article>
 
@@ -203,15 +187,15 @@
 
             <div class="container">
               <div class="author-container d-flex align-items-center">
-                <img src="assets/img/favicon.png" class="rounded-circle flex-shrink-0" alt="">
+                <img src="assets/img/favicon.webp" class="rounded-circle flex-shrink-0" alt="">
                 <div>
-                  <h4>Ing. Erwin Aragón</h4>
-                  <div class="social-links">
+                  <h4>INSEMASA</h4>
+                  <!-- <div class="social-links">
                     <a href="https://x.com/#"><i class="bi bi-twitter-x"></i></a>
                     <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
                     <a href="https://instagram.com/#"><i class="biu bi-instagram"></i></a>
-                  </div>
-                  <p>
+                  </div> -->
+                  <p data-section="author" data-value="phrase">
                     "La agricultura es la profesión propia del sabio, la más adecuada al sencillo y la ocupación más
                     digna para todo hombre libre." - Marco Tulio Cicerón.
                   </p>
@@ -222,15 +206,68 @@
           </section><!-- / Author Section -->
 
           <!--  Comments Section -->
-          <section id="-comments" class="-comments section">
+          <section id="news-comments" class="mews-comments section">
 
             <div class="container">
 
               <div class="reply-form">
 
-                <h4>Leave a Reply</h4>
-                <p>Your email address will not be published. Required fields are marked * </p>
-                <form action="">
+                <h4 data-section="reply" data-value="title">Deja una respuesta</h4>
+                <p data-section="reply" data-value="p">Tu dirección de correo electrónico no será publicada. Los campos obligatorios están marcados. * </p>
+                <form action="forms/correo.php" method="post" class="php-email-form" data-aos="fade"
+                  data-aos-delay="100">
+                  <div class="row gy-4">
+
+                    <div class="col-md-4">
+                      <input type="text" autocapitalize="words" autocomplete="off" id="name" name="name"
+                        class="form-control" placeholder="your name *" required>
+                    </div>
+
+                    <div class="col-md-4">
+                      <!-- <select id="select-country" name="prefix" autocomplete="off" style="padding: 15px 15px;">
+                      </select> -->
+                      <select name="select-country" id="select-country">
+                      </select>
+                    </div>
+
+                    <div class="col-md-4">
+                      <input type="tel" autocomplete="off" name="phone" class="form-control" placeholder="number phone"
+                        required>
+                    </div>
+
+                    <div class="col-md-12">
+                      <input type="email" autocapitalize="words" autocomplete="off" class="form-control" name="email"
+                        placeholder="Email *" required>
+                    </div>
+
+                    <div class="col-md-6" style="display: none;">
+                      <input type="text" autocapitalize="words" autocomplete="off" class="form-control" name="subject"
+                        placeholder="Subject *" required>
+                    </div>
+
+                    <div class="col-md-12">
+                      <textarea autocapitalize="words" autocomplete="off" class="form-control" name="message" rows="8"
+                        placeholder="Message *" required></textarea>
+                    </div>
+
+                    <div class="col-md-6">
+                      <input type="hidden" autocapitalize="words" autocomplete="off" id="geo" class="form-control"
+                        name="geo">
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                      <div class="loading" data-section="reply" data-value="tLoading">Cargando</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message" data-section="reply" data-value="tMessage">Tu mensaje ha sido enviado.
+                        ¡Gracias!</div>
+
+                      <button type="submit" data-section="reply" data-value="btn">Enviar Mensaje</button>
+                    </div>
+
+                  </div>
+                </form>
+
+                <!-- <form action="">
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <input name="name" type="text" class="form-control" placeholder="Your Name*">
@@ -254,7 +291,7 @@
                     <button type="submit" class="btn btn-primary">Post Comment</button>
                   </div>
 
-                </form>
+                </form> -->
 
               </div>
 
@@ -275,9 +312,9 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">INSEMASA</span>
+            <span class="sitename" data-section="footer-top" data-value="title">INSEMASA</span>
           </a>
-          <p> Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad
+          <p data-section="footer-top" data-value="description">Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad
             excepcional de pequeñas granjas y cooperativas en Nicaragua.</p>
           <!-- <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -288,33 +325,32 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Enlaces de interés</h4>
+          <h4  data-section="footer-top" data-value="c1-title">Enlaces de interés</h4>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Socios</a></li>
-            <li><a href="#">Noticias</a></li>
-            <li><a href="#">Galeria</a></li>
+            <li><a href="index.html" class="active" data-section="footer-top" data-value="inicio">Inicio<br></a></li>
+            <li><a href="index.html#about" data-section="footer-top" data-value="nosotros">Nosotros</a></li>
+            <li><a href="index.html#products" data-section="footer-top" data-value="productos">Productos</a></li>
+            <li><a href="index.html#clients" data-section="footer-top" data-value="aliados">Socios</a></li>
+            <li><a href="news.html" data-section="footer-top" data-value="noticias">Noticias</a></li>
+            <li><a href="galery.html" data-section="footer-top" data-value="galeria">Galería</a></li>
+            <li><a href="index.html#contact" data-section="footer-top" data-value="contacto">Contacto</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Productos</h4>
+          <h4  data-section="footer-top" data-value="c2-title">Productos</h4>
           <ul>
-            <li><a href="#">Ajonjolí</a></li>
-            <li><a href="#">Maní</a></li>
+            <li><a href="index.html#products"  data-section="footer-top" data-value="p1">Ajonjolí</a></li>
+            <li><a href="index.html#products"  data-section="footer-top" data-value="p2">Maní</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contactanos</h4>
-          <p>Managua Nicaragua</p>
-          <p>rotonda de Bello Horizonte</p>
-          <p>dos cuadras al sur</p>
-          <p>tres cuadras abajo</p>
-          <p> tope a mano izquierda casa número A-II - 44</p>
-          <p class="mt-4"><strong>Telefono:</strong> <span>+505 50585657978</span></p>
+          <h4 data-section="footer-top" data-value="c3-title">Contáctanos</h4>
+          <p data-section="footer-top" data-value="desc1">Managua Nicaragua, rotonda de Bello Horizonte</p>
+          <p data-section="footer-top" data-value="desc2">dos cuadras al sur, tres cuadras abajo</p>
+          <p data-section="footer-top" data-value="desc3">tope a mano izquierda casa número A-II - 44</p>
+          <p class="mt-4"><strong data-section="footer-top" data-value="phone">Teléfono:</strong> <span>+505 50585657978</span></p>
           <p><strong>Email:</strong> <span>erwin.Aragón@insemasa.com</span></p>
         </div>
 
@@ -355,8 +391,15 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
+  <!-- Tom Select -->
+  <script src="assets/vendor/tom-select/js/tom-select.complete.min.js"></script>
+
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- lenguage JS File -->
+  <script src="assets/js/lenguage.js"></script>
+   <!-- internationla prefix JS File -->
+   <script src="assets/js/internationalprefix.js"></script>
 
 </body>
 

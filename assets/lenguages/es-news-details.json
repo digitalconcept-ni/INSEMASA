@@ -1,0 +1,65 @@
+{
+    "navmenu": {
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galería",
+        "contacto": "Contacto"
+    },
+    "heading": {
+        "title": "Galería",
+        "description": "En INSEMASA, creemos en un futuro donde la agricultura no solo nutre,sino que también protege nuestro planeta."
+    },
+    "breadcrumbs": {
+        "home": "Inicio",
+        "active": "Galería"
+    },
+    "footer-top": {
+        "title": "INSEMASA",
+        "description": "Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad excepcional de pequeñas granjas y cooperativas en Nicaragua.",
+        "c1-titlte": "Enlaces de interés",
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galeria",
+        "contacto": "Contacto",
+        "c2-titlte": "Productos",
+        "p1": "Ajonjolí",
+        "p2": "Maní",
+        "c3-title": "Contáctanos",
+        "desc1": "Managua Nicaragua, rotonda de Bello Horizonte",
+        "desc2": "dos cuadras al sur, tres cuadras abajo",
+        "desc3": "tope a mano izquierda casa número A-II - 44",
+        "phone": "Teléfono"
+    },
+    "foot": {
+        "copy": "Todos los derechos reservados",
+        "desing": "Diseñado por"
+    },
+    "reply":{
+        "title": "Leave a Reply",
+        "p": "Your email address will not be published. Required fields are marked",
+        "tLoading": "Loading",
+        "tMessage": "Your message has been sent. Thank you!",
+        "btn": "Send Message"
+
+    },
+    "author":{
+        "phrase": "“La agricultura es la profesión propia del sabio, la más adecuada al sencillo y la ocupación más digna para todo hombre libre.“ - Marco Tulio Cicerón."
+    },
+    "article":{
+        "title": "Una empresa nueva en la exportación de sésamo nicaragüense.",
+        "p1": "INSEMASA, una empresa nueva en la exportación de sésamo nicaragüense, ha iniciado una colaboración con pequeños agricultores de ajonjolí, comprometidos con la agricultura familiar, para la compra de sésamo a precios justos. Esta iniciativa busca apoyar a los agricultores locales, quienes a menudo enfrentan desafíos para obtener un ingreso equitativo por su trabajo.",
+        "blockquote": " Nicaragua, con su fértil suelo y clima tropical, ha encontrado en el maní y el ajonjolí dos cultivos de gran relevancia para su economía.",
+        "p2": "El ajonjolí ha experimentado un crecimiento significativo en las exportaciones durante los últimos años. Su demanda a nivel internacional, impulsada por su uso en la industria cosmética y alimentaria, ha beneficiado a los productores nicaragüenses.",
+        "title2": "Aseguramos la adquisición de sésamo de alta calidad",
+        "p3": " Al tiempo que promueve prácticas agrícolas sostenibles y mejora la calidad de vida de las comunidades involucradas. Esta alianza no solo fortalece la economía local, sino que también fomenta el desarrollo de un sistema alimentario más justo y responsable.",
+        "title3": "Alianza con entusiasmo",
+        "p4": "Los agricultores expresan su entusiasmo por esta alianza, que les permite acceder a un mercado más estable y justo, contribuyendo así a la seguridad alimentaria de la región. Con esta acción, INSEMASA reafirma su compromiso con la sostenibilidad y el apoyo a la producción local."
+
+    }
+}

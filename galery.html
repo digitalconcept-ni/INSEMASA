@@ -37,7 +37,7 @@
 
 </head>
 
-<body class="news-page">
+<body class="news-page" id="body">
 
   <header id="header" class="header fixed-top">
 
@@ -66,13 +66,13 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active" data-section="navmenu" data-value="inicio">Inicio<br></a></li>
-            <li><a href="#about" data-section="navmenu" data-value="nosotros">Nosotros</a></li>
-            <li><a href="#products" data-section="navmenu" data-value="productos">Productos</a></li>
-            <li><a href="#clients" data-section="navmenu" data-value="aliados">Socios</a></li>
-            <li><a href="#news" data-section="navmenu" data-value="noticias">Noticias</a></li>
-            <li><a href="#galery" data-section="navmenu" data-value="galeria">Galeria</a></li>
-            <li><a href="#contact" data-section="navmenu" data-value="contacto">Contacto</a></li>
+            <li><a href="index.html#hero" class="active" data-section="navmenu" data-value="inicio">Inicio<br></a></li>
+            <li><a href="index.html#about" data-section="navmenu" data-value="nosotros">Nosotros</a></li>
+            <li><a href="index.html#products" data-section="navmenu" data-value="productos">Productos</a></li>
+            <li><a href="index.html#clients" data-section="navmenu" data-value="aliados">Socios</a></li>
+            <li><a href="news.html" data-section="navmenu" data-value="noticias">Noticias</a></li>
+            <li><a href="galery.html" data-section="navmenu" data-value="galeria">Galeria</a></li>
+            <li><a href="index.html#contact" data-section="navmenu" data-value="contacto">Contacto</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -91,8 +91,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Galeria</h1>
-              <p class="mb-0">
+              <h1 data-section="heading" data-value="title">Galería</h1>
+              <p class="mb-0" data-section="heading" data-value="description">
                 En INSEMASA, creemos en un futuro donde la agricultura no solo nutre,
                 sino que también protege nuestro planeta. </p>
             </div>
@@ -102,19 +102,19 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Galeria</li>
+            <li><a href="index.html" data-section="breadcrumbs" data-value="home">Inicio</a></li>
+            <li class="current" data-section="breadcrumbs" data-value="active">Galería</li>
           </ol>
         </div>
       </nav>
     </div><!-- End Page Title -->
 
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
+    <section class="gallery section">
 
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+      <div class="container-fluid" data-aos="fade-up">
 
-        <div class="row gy-4 justify-content-center">
+        <div class="row gy-4 justify-content-center" id="gallery">
 
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
@@ -124,67 +124,8 @@
                     class="bi bi-arrows-angle-expand"></i></a>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/galery/GALERY-1.webp" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/galery/GALERY-1.webp" title="Agricultor en control de calidad" class="glightbox preview-link"><i
-                    class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/cta.webp" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/cta.webp" title="Flor de ajonjoli" class="glightbox preview-link"><i
-                    class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/OUR-1.webp" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/OUR-1.webp" title="Flor de ajonjoli" class="glightbox preview-link"><i
-                    class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/OUR-2.webp" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/OUR-2.webp" title="Agricultores arando la tierra" class="glightbox preview-link"><i
-                    class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/news/ndetail-1.webp" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/news/ndetail-1.webp" title="Agricultores cosechando" class="glightbox preview-link"><i
-                    class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/news/ndetail1-2.webp" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/news/ndetail1-2.webp" title="agricultores" class="glightbox preview-link"><i
-                    class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
 
 
         </div>
@@ -201,9 +142,9 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">INSEMASA</span>
+            <span class="sitename" data-section="footer-top" data-value="title">INSEMASA</span>
           </a>
-          <p> Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad
+          <p data-section="footer-top" data-value="description">Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad
             excepcional de pequeñas granjas y cooperativas en Nicaragua.</p>
           <!-- <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -214,33 +155,32 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Enlaces de interés</h4>
+          <h4  data-section="footer-top" data-value="c1-title">Enlaces de interés</h4>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Socios</a></li>
-            <li><a href="#">Noticias</a></li>
-            <li><a href="#">Galeria</a></li>
+            <li><a href="index.html" class="active" data-section="footer-top" data-value="inicio">Inicio<br></a></li>
+            <li><a href="index.html#about" data-section="footer-top" data-value="nosotros">Nosotros</a></li>
+            <li><a href="index.html#products" data-section="footer-top" data-value="productos">Productos</a></li>
+            <li><a href="index.html#clients" data-section="footer-top" data-value="aliados">Socios</a></li>
+            <li><a href="news.html" data-section="footer-top" data-value="noticias">Noticias</a></li>
+            <li><a href="galery.html" data-section="footer-top" data-value="galeria">Galería</a></li>
+            <li><a href="index.html#contact" data-section="footer-top" data-value="contacto">Contacto</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Productos</h4>
+          <h4  data-section="footer-top" data-value="c2-title">Productos</h4>
           <ul>
-            <li><a href="#">Ajonjolí</a></li>
-            <li><a href="#">Maní</a></li>
+            <li><a href="index.html#products"  data-section="footer-top" data-value="p1">Ajonjolí</a></li>
+            <li><a href="index.html#products"  data-section="footer-top" data-value="p2">Maní</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contactanos</h4>
-          <p>Managua Nicaragua</p>
-          <p>rotonda de Bello Horizonte</p>
-          <p>dos cuadras al sur</p>
-          <p>tres cuadras abajo</p>
-          <p> tope a mano izquierda casa número A-II - 44</p>
-          <p class="mt-4"><strong>Telefono:</strong> <span>+505 50585657978</span></p>
+          <h4 data-section="footer-top" data-value="c3-title">Contáctanos</h4>
+          <p data-section="footer-top" data-value="desc1">Managua Nicaragua, rotonda de Bello Horizonte</p>
+          <p data-section="footer-top" data-value="desc2">dos cuadras al sur, tres cuadras abajo</p>
+          <p data-section="footer-top" data-value="desc3">tope a mano izquierda casa número A-II - 44</p>
+          <p class="mt-4"><strong data-section="footer-top" data-value="phone">Teléfono:</strong> <span>+505 50585657978</span></p>
           <p><strong>Email:</strong> <span>erwin.Aragón@insemasa.com</span></p>
         </div>
 
@@ -274,7 +214,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -284,6 +223,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- lenguage JS File -->
+  <script src="assets/js/lenguage.js"></script>
+  <!-- load images JS File -->
+  <script src="assets/js/loadimggalery.js"></script>
+
+
 
 </body>
 

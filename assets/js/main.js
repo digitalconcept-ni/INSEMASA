@@ -7,6 +7,8 @@
 */
 
 (function () {
+  let pathname = window.location.pathname.split('/')[1].split('.')[0];
+
 
   /**
    * Apply .scrolled class to the body as the page is scrolled down
@@ -64,7 +66,7 @@
    */
 
   const preloader = document.querySelector('#preloader');
-  
+
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
@@ -245,8 +247,9 @@
     });
 
   }
-
-  selecCountry();
+  if (pathname == 'index' || pathname == 'news-details') {
+    selecCountry();
+  }
 
 
 
