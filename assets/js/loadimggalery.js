@@ -1,8 +1,10 @@
 (function () {
 
-    const imgs = ['CONTROL DE CALIDAD.webp' ,'SIEMBRA2.webp', 'CULTIVO.webp',
-        'CORTANDO MALEZA.webp', 'FRUTO.webp', 'SEMILLA.webp',
-        'AGRICULTORES.webp', 'MUJER AGRICULTORA.webp', 'LIMPIEZA.webp'
+    const imgs = ['Agricultor revisando sistema radicular de sesamo.webp', 'Familia de agricultores aporreando sesamo.webp',
+        'Familia de agricultores limpiando sesamo.webp', 'Familias de agricultores limpiando sesamo.webp', 'Germinación de sesamo.webp',
+        'Productores de sesamo aporreando y limpiando.webp', 'Sesamo de 15 dias de germinado.webp',
+        'Sesamo cosechado y puesto en parvas para el secado en campo.webp', 'Variedad de sesamo ICT R.webp', 'Sesame de 30 dias de germinado.webp',
+        'ICTA R.webp',
     ];
 
     const loadImgs = imgs => {
