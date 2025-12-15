@@ -6,7 +6,21 @@ const txtsToChange = document.querySelectorAll('[data-section]');
 
 // Funcion para cargar el archivo segun el idioma
 const changeLanguage = async language => {
-    const requesJson = await fetch(`assets/lenguages/${language}.json`);
+    // Opotenemos el nombre del documento
+    // para saber que documento vamos a utilizar para la traduccion
+    let pathname = window.location.hash.split('#')[1].split('.')[0];
+    // let pathname = window.location.pathname.split('/')[1].split('.')[0];
+
+    console.log(window.location)
+    console.log(pathname)
+
+    if (pathname != 'index') {
+        var path = `assets/lenguages/${language}-${pathname}.json`;
+    } else {
+        var path = `assets/lenguages/${language}.json`;
+    }
+    
+    const requesJson = await fetch(`${path}`);
     const texts = await requesJson.json();
 
     const container = document.getElementById('body');
@@ -26,7 +40,7 @@ const changeLanguage = async language => {
         if (preloader) {
             preloader.remove();
         }
-    },550)
+    }, 550)
 
 };
 

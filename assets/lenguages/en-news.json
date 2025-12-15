@@ -1,0 +1,48 @@
+{
+    "navmenu": {
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact"
+    },
+    "heading": {
+        "title": "News",
+        "description": "At INSEMASA, we believe in a future where agriculture not only nourishes, but also protects our planet."
+    },
+    "breadcrumbs": {
+        "home": "Home",
+        "active": "News"
+    },
+    "footer-top": {
+        "title": "INSEMASA",
+        "description": "We specialize in the supply and export of exceptional quality sesame and peanut seeds from small farms and cooperatives in Nicaragua.",
+        "c1-title": "Links of interest",
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact",
+        "c2-title": "Products",
+        "p1": "Sesame",
+        "p2": "Peanut",
+        "c3-title": "Products",
+        "desc1": "Managua Nicaragua, Bello Horizonte roundabout",
+        "desc2": "two blocks south, three blocks down",
+        "desc3": "Left hand stop house number A-II - 44",
+        "phone": "Movil"
+
+    },
+    "foot": {
+        "copy": "All rights reserved",
+        "desing": "Designed by"
+    },
+    "post":{
+        "post-title": "A new company in the export of Nicaraguan sesame.",
+        "date": "Jan 10, 2025"
+    }
+}

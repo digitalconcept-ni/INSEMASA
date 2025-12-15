@@ -1,0 +1,70 @@
+{
+    "navmenu": {
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact"
+    },
+    "heading": {
+        "title": "News",
+        "description": "At INSEMASA, we believe in a future where agriculture not only nourishes, but also protects our planet."
+    },
+    "breadcrumbs": {
+        "home": "Home",
+        "active": "News"
+    },
+    "footer-top": {
+        "title": "INSEMASA",
+        "description": "We specialize in the supply and export of exceptional quality sesame and peanut seeds from small farms and cooperatives in Nicaragua.",
+        "c1-title": "Links of interest",
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact",
+        "c2-title": "Products",
+        "p1": "Sesame",
+        "p2": "Peanut",
+        "c3-title": "Products",
+        "desc1": "Managua Nicaragua, Bello Horizonte roundabout",
+        "desc2": "two blocks south, three blocks down",
+        "desc3": "Left hand stop house number A-II - 44",
+        "phone": "Movil"
+
+    },
+    "foot": {
+        "copy": "All rights reserved",
+        "desing": "Designed by"
+    },
+    "author":{
+        "phrase": "“Agriculture is the profession of the wise, the most suitable for the simple, and the most worthy occupation for any free man.” - Marcus Tullius Cicero"
+    },
+    "post":{
+        "post-title": "A new company in the export of Nicaraguan sesame.",
+        "date": "Jan 10, 2025"
+    },
+    "reply":{
+        "title": "Leave a Reply",
+        "p": "Your email address will not be published. Required fields are marked",
+        "tLoading": "Loading",
+        "tMessage": "Your message has been sent. Thank you!",
+        "btn": "Send Message"
+
+    },
+    "article":{
+        "title": "A new company in the export of Nicaraguan sesame.",
+        "p1": "INSEMASA, a new company in the export of Nicaraguan sesame, has started a collaboration with small sesame farmers, committed to family agriculture, to purchase sesame at fair prices. This initiative seeks to support local farmers, who often face challenges in obtaining a fair income for their work.",
+        "blockquote": "Nicaragua, with its fertile soil and tropical climate, has found in peanuts and sesame two crops of great importance to its economy.",
+        "p2": "Sesame has experienced significant growth in exports over the past few years. Its international demand, driven by its use in the cosmetics and food industries, has benefited Nicaraguan producers.",
+        "title2": "We ensure the acquisition of high quality sesame",
+        "p3": "While promoting sustainable agricultural practices and improving the quality of life of the communities involved, this alliance not only strengthens the local economy, but also encourages the development of a more fair and responsible food system.",
+        "title3": "Alliance with enthusiasm",
+        "p4": "Farmers express their enthusiasm for this alliance, which allows them to access a more stable and fair market, thus contributing to food security in the region. With this action, INSEMASA reaffirms its commitment to sustainability and support for local production."
+
+    }
+}

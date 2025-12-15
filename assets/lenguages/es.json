@@ -39,12 +39,15 @@
     "products": {
         "title": "Productos",
         "titlep1": "Ajonjolí",
-        "p1d1": "Organico: <b> Natural y descortezado </b>",
-        "p1d2": "Convencional: <b> Natural y descortezado </b>",
+        "p1d1": "Organico",
+        "p1d2": "Convencional",
         "titlep2": "Maní",
         "p2d1": "Organico",
         "p2d2": "Organico blancheado",
-        "p2d3": "Organico blancheado"
+        "p2d3": "Organico blancheado",
+        "titlep3": "Maní",
+        "p3d1": "Organico",
+        "p3d2": "Convencional"
     },
     "cta": {
         "title": "Te apoyaremos en tu siguiente paso",
