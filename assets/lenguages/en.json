@@ -39,12 +39,15 @@
     "products": {
         "title": "Products",
         "titlep1": "Sesame",
-        "p1d1": "Organic: <b> Natural and Hulled </b>",
-        "p1d2": "Conventional:<b> Natural and Hulled </b>",
+        "p1d1": "Organic",
+        "p1d2": "Conventional",
         "titlep2": "Peanut",
         "p2d1": "Organic",
         "p2d2": "Organic blanched",
-        "p2d3": "Organic blanched"
+        "p2d3": "Organic blanched",
+        "titlep3": "Coffee gold",
+        "p3d1": "Organic",
+        "p3d2": "Conventional"
     },
     "cta": {
         "title": "We will support you in your next step",
