@@ -8,13 +8,9 @@ const txtsToChange = document.querySelectorAll('[data-section]');
 const changeLanguage = async language => {
     // Opotenemos el nombre del documento
     // para saber que documento vamos a utilizar para la traduccion
-    let pathname = window.location.hash.split('#')[1].split('.')[0];
-    // let pathname = window.location.pathname.split('/')[1].split('.')[0];
+    let pathname = window.location.pathname.split('/')[1].split('.')[0];
 
-    console.log(window.location)
-    console.log(pathname)
-
-    if (pathname != 'index') {
+    if (pathname != '') {
         var path = `assets/lenguages/${language}-${pathname}.json`;
     } else {
         var path = `assets/lenguages/${language}.json`;

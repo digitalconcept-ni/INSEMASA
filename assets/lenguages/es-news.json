@@ -16,9 +16,13 @@
         "home": "Inicio",
         "active": "Noticias"
     },
-    "post":{
-        "post-title": "Una empresa nueva en la exportación de sésamo nicaragüense.",
-        "date": "Enero 10, 2025"
+    "post": {
+        "pt-1": "Una empresa nueva en la exportación de sésamo nicaragüense.",
+        "d1": "Enero 10, 2025",
+        "pt-2": "Café de mancotal – presentación comercial.",
+        "d2": "Diciembre 10, 2025",
+        "pt-3": "INSEMASA Presenta Café de Alta Calidad Proveniente de Mancotal.",
+        "d3": "Diciembre 10, 2025"
     },
     "footer-top": {
         "title": "INSEMASA",

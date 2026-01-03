@@ -1,0 +1,71 @@
+{
+    "navmenu": {
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galería",
+        "contacto": "Contacto"
+    },
+    "heading": {
+        "title": "Galería",
+        "description": "En INSEMASA, creemos en un futuro donde la agricultura no solo nutre,sino que también protege nuestro planeta."
+    },
+    "breadcrumbs": {
+        "home": "Inicio",
+        "active": "Galería"
+    },
+    "footer-top": {
+        "title": "INSEMASA",
+        "description": "Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad excepcional de pequeñas granjas y cooperativas en Nicaragua.",
+        "c1-titlte": "Enlaces de interés",
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galeria",
+        "contacto": "Contacto",
+        "c2-titlte": "Productos",
+        "p1": "Ajonjolí",
+        "p2": "Maní",
+        "c3-title": "Contáctanos",
+        "desc1": "Managua Nicaragua, rotonda de Bello Horizonte",
+        "desc2": "dos cuadras al sur, tres cuadras abajo",
+        "desc3": "tope a mano izquierda casa número A-II - 44",
+        "phone": "Teléfono"
+    },
+    "foot": {
+        "copy": "Todos los derechos reservados",
+        "desing": "Diseñado por"
+    },
+    "reply":{
+        "title": "Leave a Reply",
+        "p": "Your email address will not be published. Required fields are marked",
+        "tLoading": "Loading",
+        "tMessage": "Your message has been sent. Thank you!",
+        "btn": "Send Message"
+
+    },
+    "author":{
+        "phrase": "“La agricultura es la profesión propia del sabio, la más adecuada al sencillo y la ocupación más digna para todo hombre libre.“ - Marco Tulio Cicerón."
+    },
+    "article":{
+        "title": "INSEMASA Presenta Café de Alta Calidad Proveniente de Mancotal: Producción Sostenible, Origen Trazable y Abastecimiento Garantizado",
+        "p1": "INSEMASA anuncia el inicio oficial de su temporada de café 2025–2026, consolidando una red de más de 234 pequeños productores en la zona de Mancotal, una de las regiones cafetaleras más privilegiadas del país por su altitud, microclima y suelos volcánicos. Este año, la empresa proyecta disponibilizar 15,000 quintales de Café Oro, procesados bajo estrictos estándares de calidad y sostenibilidad.",
+        "title2": "Un café que nace en las montañas",
+        "p2": "Los cafetales de Mancotal —rodeados por vegetación exuberante y la cuenca del Lago Apanás— ofrecen condiciones óptimas para desarrollar perfiles de taza limpios, dulces y balanceados. Las familias productoras de la zona trabajan cada ciclo con dedicación artesanal, manteniendo prácticas agrícolas responsables y enfocadas en la calidad desde la cosecha hasta el secado.",
+        "title3": "Compromiso social con las familias productoras",
+        "p3": "INSEMASA ha construido un modelo de acompañamiento directo, apoyando a las familias en buenas prácticas agrícolas, manejo poscosecha y acceso a mercados formales. Este enfoque de inclusión productiva garantiza que cada quintal exportado represente un beneficio real para las comunidades rurales del norte del país.",
+        "title4": "Control de calidad y trazabilidad",
+        "p4": " Los cafés adquiridos por INSEMASA pasan por procesos rigurosos de selección, despulpado, secado y clasificación. Esto permite ofrecer a los compradores internacionales un café con:",
+        "li1": "Trazabilidad completa desde la finca.",
+        "li2": "Perfiles sensoriales consistentes.",
+        "li3": "Lotes limpios y bien clasificados.",
+        "li4": "Oferta estable durante toda la temporada.",
+        "title5": "Un origen con carácter",
+        "p5": "Las imágenes que acompañan esta nota reflejan el espíritu del café de Mancotal: la dedicación de sus productores, el trabajo familiar en el campo, la riqueza ecológica de la región y la pureza del grano antes de su transformación."
+
+    }
+}

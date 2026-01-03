@@ -1,0 +1,70 @@
+{
+    "navmenu": {
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact"
+    },
+    "heading": {
+        "title": "News",
+        "description": "At INSEMASA, we believe in a future where agriculture not only nourishes, but also protects our planet."
+    },
+    "breadcrumbs": {
+        "home": "Home",
+        "active": "News"
+    },
+    "footer-top": {
+        "title": "INSEMASA",
+        "description": "We specialize in the supply and export of exceptional quality sesame and peanut seeds from small farms and cooperatives in Nicaragua.",
+        "c1-title": "Links of interest",
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact",
+        "c2-title": "Products",
+        "p1": "Sesame",
+        "p2": "Peanut",
+        "c3-title": "Products",
+        "desc1": "Managua Nicaragua, Bello Horizonte roundabout",
+        "desc2": "two blocks south, three blocks down",
+        "desc3": "Left hand stop house number A-II - 44",
+        "phone": "Movil"
+    },
+    "foot": {
+        "copy": "All rights reserved",
+        "desing": "Designed by"
+    },
+    "author": {
+        "phrase": "“Agriculture is the profession of the wise, the most suitable for the simple, and the most worthy occupation for any free man.” - Marco Tulio Cicerón."
+    },
+    "post": {
+        "post-title": "A new company in the export of Nicaraguan sesame.",
+        "date": "Jan 10, 2025"
+    },
+    "reply": {
+        "title": "Leave a Reply",
+        "p": "Your email address will not be published. Required fields are marked",
+        "tLoading": "Loading",
+        "tMessage": "Your message has been sent. Thank you!",
+        "btn": "Send Message"
+    },
+    "article": {
+        "title": "Mancotal coffee – commercial presentation.",
+        "title2": "A coffee that is born at high altitude.",
+        "p2": "The Mancotal region of Jinotega is one of Nicaragua's most consistently coffee-growing areas. Its cool microclimates and fertile soils allow for coffees with clean, sweet, and balanced aromatic profiles. INSEMASA guarantees 15,000 quintals of Oro Verde coffee, with full traceability from the farm.",
+        "blockquote": "Our model integrates 234 small producers, promoting Good Agricultural Practices (GAP) and traceability. Each quintal represents community development and real sustainability.",
+        "description": "Each batch undergoes controlled pulping, standardized fermentation, uniform drying, and sieve classification. Availability: 19–20 mesh, 15–18 mesh, and controlled Oro Verde.",
+        "title3": "Sensory Profile.",
+        "p3": "Aroma: Dry, it presents a moderate intensity, with clean and stable notes. The creamy descriptor adds a smooth, creamy nuance, while the mid-difference reveals a light yet defined aromatic opening. The overall impression is well-balanced and harmonious.",
+        "p4": "Cup: The clarity reflects a consistent cup with no perceptible defects, maintaining the purity of the origin bean. The sweetness is integrated, with a natural sweetness characteristic of high-altitude coffees. The acidity is bright, fresh, and well-balanced, without unpleasant peaks.",
+        "p5": "The body is notable for its roundness and good density, providing a satisfying mouthfeel. The flavor is consistent with the overall profile, offering balanced and clean notes. The finish is medium, pleasant, and persistent. The balance demonstrates harmony between sweetness, acidity, and body, resulting in a stable and commercially appealing profile.",
+        "title4": "Alliance with enthusiasm",
+        "p6": "Farmers have expressed their enthusiasm for this partnership, which grants them access to a more stable and equitable market, thus contributing to the region's food security. With this initiative, INSEMASA reaffirms its commitment to sustainability and support for local production."
+    }
+}

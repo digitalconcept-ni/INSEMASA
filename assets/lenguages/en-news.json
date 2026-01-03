@@ -42,7 +42,11 @@
         "desing": "Designed by"
     },
     "post":{
-        "post-title": "A new company in the export of Nicaraguan sesame.",
-        "date": "Jan 10, 2025"
+        "pt-1": "A new company in the export of Nicaraguan sesame.",
+        "d1": "Jan 10, 2025",
+        "pt-2": "Mancotal coffee – commercial presentation.",
+        "d2": "December 10, 2025",
+        "pt-3": "INSEMASA Presents High Quality Coffee from Mancotal.",
+        "d3": "December 10, 2025"
     }
 }

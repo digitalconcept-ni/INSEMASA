@@ -1,0 +1,67 @@
+{
+    "navmenu": {
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galería",
+        "contacto": "Contacto"
+    },
+    "heading": {
+        "title": "Galería",
+        "description": "En INSEMASA, creemos en un futuro donde la agricultura no solo nutre,sino que también protege nuestro planeta."
+    },
+    "breadcrumbs": {
+        "home": "Inicio",
+        "active": "Galería"
+    },
+    "footer-top": {
+        "title": "INSEMASA",
+        "description": "Nos especializamos en el abastecimiento y exportación de semillas de ajonjolí y maní de calidad excepcional de pequeñas granjas y cooperativas en Nicaragua.",
+        "c1-titlte": "Enlaces de interés",
+        "inicio": "Inicio",
+        "nosotros": "Nosotros",
+        "productos": "Productos",
+        "aliados": "Aliados",
+        "noticias": "Noticias",
+        "galeria": "Galeria",
+        "contacto": "Contacto",
+        "c2-titlte": "Productos",
+        "p1": "Ajonjolí",
+        "p2": "Maní",
+        "c3-title": "Contáctanos",
+        "desc1": "Managua Nicaragua, rotonda de Bello Horizonte",
+        "desc2": "dos cuadras al sur, tres cuadras abajo",
+        "desc3": "tope a mano izquierda casa número A-II - 44",
+        "phone": "Teléfono"
+    },
+    "foot": {
+        "copy": "Todos los derechos reservados",
+        "desing": "Diseñado por"
+    },
+    "reply": {
+        "title": "Leave a Reply",
+        "p": "Your email address will not be published. Required fields are marked",
+        "tLoading": "Loading",
+        "tMessage": "Your message has been sent. Thank you!",
+        "btn": "Send Message"
+    },
+    "author": {
+        "phrase": "“La agricultura es la profesión propia del sabio, la más adecuada al sencillo y la ocupación más digna para todo hombre libre.“ - Marco Tulio Cicerón."
+    },
+    "article": {
+        "title": "Café de mancotal – presentación comercial.",
+        "title2": "Un café que nace en altura.",
+        "p2": "La zona de Mancotal, Jinotega, es uno de los territorios cafetaleros más consistentes de Nicaragua. Sus microclimas fríos y suelos fértiles permiten cafés con perfiles aromáticos limpios, dulces y balanceados. INSEMASA garantiza 15,000 qq de Café Oro Verde, con trazabilidad total desde la finca.",
+        "blockquote": "Nuestro modelo integra a 234 pequeños productores, fomentando BPA, trazabilidad. Cada quintal representa desarrollo comunitario y sostenibilidad real.",
+        "description": "Cada lote pasa por despulpado controlado, fermentación estandarizada, secado uniforme y Clasificación por cribas. Disponibilidad: Criba 19–20, Criba 15–18, Oro Verde controlado.",
+        "title3": "Perfil Sensorial.",
+        "p3": "Aroma: En seco presenta una intensidad moderada, con notas limpias y estables. El descriptor nata aporta un matiz cremoso y suave, mientras que en el quiebre se aprecia una apertura aromática ligera pero definida. El conjunto ofrece un perfil aromático ordenado, sin desviaciones.",
+        "p4": "Taza: La limpieza refleja una taza coherente y sin defectos perceptibles, manteniendo la pureza del grano de origen. La dulzura se manifiesta de forma integrada, con un dulzor natural propio de cafés de altura. La acidez es brillante, fresca y bien calibrada, sin picos desagradables.",
+        "p5": "El cuerpo se destaca por ser redondo y de buena densidad, aportando una sensación en boca satisfactoria. El sabor muestra consistencia con el perfil general, ofreciendo notas equilibradas y limpias. El resabio es medio, agradable y persistente. El balance demuestra armonía entre dulzura, acidez y cuerpo, conformando un perfil estable y comercialmente atractivo.",
+        "title4": "Alianza con entusiasmo",
+        "p6": "Los agricultores expresan su entusiasmo por esta alianza, que les permite acceder a un mercado más estable y justo, contribuyendo así a la seguridad alimentaria de la región. Con esta acción, INSEMASA reafirma su compromiso con la sostenibilidad y el apoyo a la producción local."
+
+    }
+}

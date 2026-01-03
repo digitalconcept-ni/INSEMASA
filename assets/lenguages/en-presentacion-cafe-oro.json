@@ -1,0 +1,73 @@
+{
+    "navmenu": {
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact"
+    },
+    "heading": {
+        "title": "News",
+        "description": "At INSEMASA, we believe in a future where agriculture not only nourishes, but also protects our planet."
+    },
+    "breadcrumbs": {
+        "home": "Home",
+        "active": "News"
+    },
+    "footer-top": {
+        "title": "INSEMASA",
+        "description": "We specialize in the supply and export of exceptional quality sesame and peanut seeds from small farms and cooperatives in Nicaragua.",
+        "c1-title": "Links of interest",
+        "inicio": "Home",
+        "nosotros": "About",
+        "productos": "Products",
+        "aliados": "Partners",
+        "noticias": "News",
+        "galeria": "Gallery",
+        "contacto": "Contact",
+        "c2-title": "Products",
+        "p1": "Sesame",
+        "p2": "Peanut",
+        "c3-title": "Products",
+        "desc1": "Managua Nicaragua, Bello Horizonte roundabout",
+        "desc2": "two blocks south, three blocks down",
+        "desc3": "Left hand stop house number A-II - 44",
+        "phone": "Movil"
+    },
+    "foot": {
+        "copy": "All rights reserved",
+        "desing": "Designed by"
+    },
+    "author": {
+        "phrase": "“Agriculture is the profession of the wise, the most suitable for the simple, and the most worthy occupation for any free man.” - Marco Tulio Cicerón."
+    },
+    "post": {
+        "post-title": "A new company in the export of Nicaraguan sesame.",
+        "date": "Jan 10, 2025"
+    },
+    "reply": {
+        "title": "Leave a Reply",
+        "p": "Your email address will not be published. Required fields are marked",
+        "tLoading": "Loading",
+        "tMessage": "Your message has been sent. Thank you!",
+        "btn": "Send Message"
+    },
+    "article": {
+        "title": "INSEMASA Presents High-Quality Coffee from Mancotal: Sustainable Production, Traceable Origin, and Guaranteed Supply",
+        "p1": "INSEMASA announces the official start of its 2025–2026 coffee season, consolidating a network of more than 234 small producers in the Mancotal area, one of the country's most privileged coffee-growing regions due to its altitude, microclimate, and volcanic soils. This year, the company projects making 15,000 quintals of green coffee available, processed under strict quality and sustainability standards.",
+        "title2": "A coffee that originates in the mountains",
+        "p2": "The coffee plantations of Mancotal—surrounded by lush vegetation and the Apanás Lake basin—offer optimal conditions for developing clean, sweet, and balanced cup profiles. The local farming families work each cycle with artisanal dedication, maintaining responsible agricultural practices focused on quality from harvest to drying.",
+        "title3": "Social commitment to farming families",
+        "p3": "INSEMASA has developed a direct support model, assisting families with good agricultural practices, post-harvest handling, and access to formal markets. This approach to productive inclusion ensures that every quintal exported represents a real benefit for rural communities in the north of the country.",
+        "title4": "Quality control and traceability",
+        "p4": "The coffees purchased by INSEMASA undergo rigorous selection, pulping, drying, and grading processes. This allows them to offer international buyers coffee with:",
+        "li1": "Full traceability from the farm.",
+        "li2": "Consistent sensory profiles.",
+        "li3": "Clean and well-sorted lots.",
+        "li4": "Stable offer throughout the season.",
+        "title5": "A distinctive origin",
+        "p5": "The images accompanying this article reflect the spirit of Mancotal coffee: the dedication of its producers, the family work in the fields, the ecological richness of the region, and the purity of the bean before its transformation."
+    }
+}
