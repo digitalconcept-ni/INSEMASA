@@ -4,7 +4,7 @@
         'Familia de agricultores limpiando sesamo.webp', 'Familias de agricultores limpiando sesamo.webp', 'Germinación de sesamo.webp',
         'Productores de sesamo aporreando y limpiando.webp', 'Sesamo de 15 dias de germinado.webp',
         'Sesamo cosechado y puesto en parvas para el secado en campo.webp', 'Variedad de sesamo ICT R.webp', 'Sesame de 30 dias de germinado.webp',
-        'ICTA R.webp','coffegrain.JPG', 'graininplant.jpg', 'mencotal2.JPG', 'womenrecollect.JPG', 'coffewash.png'
+        'ICTA R.webp','coffegrain.webp', 'coffeplant.webp', 'mancotal.webp', 'womenrecollect.webp', 'coffewash.webp'
     ];
 
     const loadImgs = imgs => {
